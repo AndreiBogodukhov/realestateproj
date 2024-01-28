@@ -95,51 +95,20 @@ if (!isset($_SESSION['admin_id'])) {
                             </div>
                         </div> -->
                     </form>
-
-                </div>
-
-                <!-- <div class="collapse collapse-box" id="horizontal-basic-form1">
-                        <div class="code-box">
-                            <div class="clearfix">
-                                <a href="javascript:;" class="btn btn-primary btn-sm code-copy pull-left" data-clipboard-target="#horizontal-basic"><i class="fa fa-clipboard"></i> Copy
-                                    Code</a>
-                                <a href="#horizontal-basic-form1" class="btn btn-primary btn-sm pull-right" rel="content-y" data-toggle="collapse" role="button"><i class="fa fa-eye-slash"></i>
-                                    Hide Code</a>
-                            </div>
-                        </div>
-                    </div> -->
-                <div class="page-header">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <div class="title">
-                                <h4>Image Dropzone</h4>
-                            </div>
-                            <nav aria-label="breadcrumb" role="navigation">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item">
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li class="breadcrumb-item active" aria-current="page">
-                                        Image Dropzone
-                                    </li>
-                                </ol>
-                            </nav>
-                        </div>
-                        <div class="col-md-6 col-sm-12 text-right">
-                            <div class="dropdown">
-                                <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                    January 2018
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="#">Export List</a>
-                                    <a class="dropdown-item" href="#">Policies</a>
-                                    <a class="dropdown-item" href="#">View Assets</a>
-                                </div>
-                            </div>
+                    <div class="clearfix mb-20">
+                        <div class="pull-left">
+                            <h4 class="text-blue h4">Dropzone</h4>
                         </div>
                     </div>
+                    <form class="dropzone" action="#" id="my-awesome-dropzone">
+                        <div class="fallback">
+                            <input type="file" name="file" />
+                        </div>
+                    </form>
+
                 </div>
 
+                
                 <div class="pd-20 card-box mb-30">
                     <div class="clearfix mb-20">
                         <div class="pull-left">
