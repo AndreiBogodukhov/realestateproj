@@ -211,7 +211,7 @@
                             <span class="micon bi bi-textarea-resize"></span><span class="mtext">Добавление</span>
                         </a>
                         <ul class="submenu">
-                            <li><a href="form-basic.html">Продажа</a></li>
+                            <li><a href="input_sell_panel.php">Продажа</a></li>
                             <li><a href="form-basic.html">Аренда</a></li>
                         </ul>
                     </li>
