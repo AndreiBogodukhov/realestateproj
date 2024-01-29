@@ -33,68 +33,130 @@ if (!isset($_SESSION['admin_id'])) {
                     </div>
                     <form>
                         <div class="form-group">
-                            <label>Text</label>
-                            <input class="form-control" type="text" placeholder="Johnny Brown" />
+                            <label>Название квартиры на русском</label>
+                            <input class="form-control" type="text"  />
                         </div>
                         <div class="form-group">
-                            <label>Email</label>
-                            <input class="form-control" value="bootstrap@example.com" type="email" />
+                            <label>Название квартиры на английском</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Количество комнат</label>
+                            <input class="form-control" type="number" />
                         </div>
                         <div class="form-group">
-                            <label>URL</label>
-                            <input class="form-control" value="https://getbootstrap.com" type="url" />
+                            <label>Цена в батах</label>
+                            <input class="form-control" type="number" />
                         </div>
                         <div class="form-group">
-                            <label>Telephone</label>
-                            <input class="form-control" value="1-(111)-111-1111" type="tel" />
+                            <label>Площадь в кв.метрах</label>
+                            <input class="form-control" type="number" />
                         </div>
                         <div class="form-group">
-                            <label>Password</label>
-                            <input class="form-control" value="password" type="password" />
+                            <label>Этаж квартиры</label>
+                            <input class="form-control" type="number" />
                         </div>
-                        <!-- <div class="form-group">
-							<label>Readonly input</label>
-							<input class="form-control" type="text" placeholder="Readonly input here…" readonly />
-						</div>
-						<div class="form-group">
-							<label>Disabled input</label>
-							<input type="text" class="form-control" placeholder="Disabled input" disabled="" />
-						</div> -->
+                        <div class="form-group">
+                            <label>Всего этажей в здании</label>
+                            <input class="form-control" type="number" />
+                        </div>
+                        <div class="form-group">
+                            <label>Год постройки</label>
+                            <input class="form-control" type="number" />
+                        </div>
+                        <div class="form-group">
+                            <label>Тип продажи (рус)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Тип продажи (англ)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Район (district)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Адрес (adress)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Тип санузла (рус)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Тип санузла - Bathroom  (англ)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Тип балкона (рус)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Тип балкона - Outdoor area (англ)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Тип ванной (рус)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Состояние недвижимости (рус)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Состояние недвижимости - Property condition (англ)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Бассейн (рус)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Бассейн - Pool (англ)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>WiFi (рус)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>WiFi (англ)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Наличие мебели (рус)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Наличие мебели - Furniture (англ)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Вид из окна (рус)</label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Вид из окна - View (англ) </label>
+                            <input class="form-control" type="text" />
+                        </div>
 
-                        <!-- <div class="form-group">
-							<label>Disabled select menu</label>
-							<select class="form-control" disabled="">
-								<option>Disabled select</option>
-							</select>
-						</div> -->
-                        <!-- <div class="form-group">
-							<label>input plaintext</label>
-							<input type="text" readonly class="form-control-plaintext" value="email@example.com" />
-						</div> -->
                         <div class="form-group">
-                            <label>Описание(ru)</label>
+                            <label>Описание(рус)</label>
                             <textarea class="form-control"></textarea>
                             <small class="form-text text-muted">
-                                Текст должен быть не более 4000 символов
+                                Текст должен быть не более 2000 символов
                             </small>
-                            <label>Описание(en)</label>
+                            <label>Описание(англ)</label>
                             <textarea class="form-control"></textarea>
                             <small class="form-text text-muted">
-                                Текст должен быть не более 4000 символов
+                                Текст должен быть не более 2000 символов
                             </small>
                         </div>
-                        <!-- <div class="form-group">
-                            <label>Example file input</label>
-                            <input type="file" class="form-control-file form-control height-auto" />
-                        </div>
-                        <div class="form-group">
-                            <label>Custom file input</label>
-                            <div class="custom-file">
-                                <input type="file" class="custom-file-input" />
-                                <label class="custom-file-label">Choose file</label>
-                            </div>
-                        </div> -->
+
                         <?php include("dropzone.php"); ?>
+
                         <div class="btn-list">
 								<button type="button" class="btn btn-success btn-lg btn-block">
 									Сохранить в базу данных
