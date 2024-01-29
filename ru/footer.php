@@ -24,7 +24,7 @@
                 <a class="cs-nav-link" href="">Аренда</a>
             </li>
             <li class="cs-nav-li">
-                <a class="cs-nav-link" href="admin_panel.php">Сотрудники</a>
+                <a class="cs-nav-link" href="signin.php">Сотрудники</a>
             </li>
             <li class="cs-nav-li">
                 <a class="cs-nav-link" href="registration.php">Контакты</a>

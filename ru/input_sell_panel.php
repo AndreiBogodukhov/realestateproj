@@ -31,7 +31,7 @@ if (!isset($_SESSION['admin_id'])) {
                             <p class="mb-30"></p>
                         </div>
                     </div>
-                    <form id="apartmentForm" enctype="multipart/form-data" action="save_data.php" method="POST">
+                    <form id="apartmentForm" enctype="multipart/form-data"  action="save_data.php" method="POST">
                         <div class="form-group">
                             <label>Название квартиры на русском</label>
                             <input class="form-control" type="text" name="apartment_name_ru" />
@@ -154,7 +154,7 @@ if (!isset($_SESSION['admin_id'])) {
 
                         <div class="upload-container">
                             <label for="fileInput" class="upload-btn-new">Select Photos</label>
-                            <input type="file" id="fileInput" class="file-input-new" accept=".png, .jpg, .jpeg" multiple>
+                            <input type="file" id="fileInput" name="fileInput" class="file-input-new" accept=".png, .jpg, .jpeg" multiple>
                             <div class="selected-files-new" id="selectedFiles"></div>
                         </div>
 

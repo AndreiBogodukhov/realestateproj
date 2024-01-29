@@ -45,7 +45,7 @@ $viewRu = $_POST['view_ru'];
 $viewEn = $_POST['view_en'];
 
 // SQL-запрос для вставки данных в таблицу apartment_owner
-$sqlApartmentOwner = "INSERT INTO apartment_owner (apartment_name_ru, apartment_name_en, bedroom_number, price, area, floor, floor_building, construction_date, sale_type_ru, sale_type_en, description_ru, description_en, district_en, adress_en, bathroom_type_ru, bathroom_type_en, outdoor_area_ru, outdoor_area_en, property_condition_ru, property_condition_en, pool_ru, pool_en, wifi_ru, wifi_en, furniture_ru, furniture_en, view_ru, view_en) VALUES ('$apartmentNameRu', '$apartmentNameEn', '$bedroomNumber', '$price', '$area', '$floor', '$floorBuilding', '$constructionDate', '$saleTypeRu', '$saleTypeEn', '$descriptionRu', '$descriptionEn', '$districtEn', '$addressEn', '$bathroomTypeRu', '$bathroomTypeEn', '$outdoorAreaRu', '$outdoorAreaEn', '$propertyConditionRu', '$propertyConditionEn', '$poolRu', '$poolEn', '$wifiRu', '$wifiEn', '$furnitureRu', '$furnitureEn', '$viewRu', '$viewEn')";
+$sqlApartmentOwner = "INSERT INTO apartment_owner (apartment_name_ru, apartment_name_en, bedroom_number, price, area, floor, floor_building, construction_date, sale_type_ru, sale_type_en, description_ru, description_en, district_en, address_en, bathroom_type_ru, bathroom_type_en, outdoor_area_ru, outdoor_area_en, property_condition_ru, property_condition_en, pool_ru, pool_en, wifi_ru, wifi_en, furniture_ru, furniture_en, view_ru, view_en) VALUES ('$apartmentNameRu', '$apartmentNameEn', '$bedroomNumber', '$price', '$area', '$floor', '$floorBuilding', '$constructionDate', '$saleTypeRu', '$saleTypeEn', '$descriptionRu', '$descriptionEn', '$districtEn', '$addressEn', '$bathroomTypeRu', '$bathroomTypeEn', '$outdoorAreaRu', '$outdoorAreaEn', '$propertyConditionRu', '$propertyConditionEn', '$poolRu', '$poolEn', '$wifiRu', '$wifiEn', '$furnitureRu', '$furnitureEn', '$viewRu', '$viewEn')";
 if ($conn->query($sqlApartmentOwner) === FALSE) {
     echo json_encode(array('success' => false, 'message' => 'Ошибка при сохранении данных в таблицу apartment_owner: ' . $conn->error));
     exit();
@@ -55,13 +55,25 @@ if ($conn->query($sqlApartmentOwner) === FALSE) {
 $lastInsertId = $conn->insert_id;
 
 // Обработка загруженных фотографий
-if (isset($_FILES['fileInput'])) {
+if (!empty($_FILES['fileInput']['name'][0])) {
     $uploadedFiles = $_FILES['fileInput'];
 
+    // Проверка, является ли $uploadedFiles массивом
+    if (!is_array($uploadedFiles['name'])) {
+        echo json_encode(array('success' => false, 'message' => 'Ошибка: файлы не были загружены.'));
+        exit();
+    }
+
     // Цикл для обработки каждого файла
-    for ($i = 0; $i < count($uploadedFiles['name']); $i++) {
-        $filename = $uploadedFiles['name'][$i];
+    foreach ($uploadedFiles['name'] as $i => $filename) {
         $tmpFilePath = $uploadedFiles['tmp_name'][$i];
+
+        // Проверка, является ли файл изображением
+        $imageFileType = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
+        if (!in_array($imageFileType, array('jpg', 'jpeg', 'png'))) {
+            echo json_encode(array('success' => false, 'message' => 'Ошибка: неверный формат файла. Разрешены только JPG, JPEG, PNG.'));
+            exit();
+        }
 
         // Генерация уникального имени файла для избежания конфликтов
         $newFilename = $lastInsertId . '_' . uniqid() . '_' . $filename;
@@ -86,10 +98,8 @@ if (isset($_FILES['fileInput'])) {
     echo json_encode(array('success' => false, 'message' => 'Ошибка: файлы не были загружены.'));
     exit();
 }
-
 // Закрытие соединения с базой данных
 $conn->close();
 
 // Возвращение успешного ответа
 echo json_encode(array('success' => true, 'message' => 'Данные успешно сохранены.'));
-?>
