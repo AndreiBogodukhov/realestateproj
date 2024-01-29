@@ -79,7 +79,7 @@ if (!isset($_SESSION['admin_id'])) {
                         </div>
                         <div class="form-group">
                             <label>Адрес (adress)</label>
-                            <input class="form-control" type="text" name="adress_en" />
+                            <input class="form-control" type="text" name="address_en" />
                         </div>
                         <div class="form-group">
                             <label>Тип санузла (рус)</label>
@@ -159,7 +159,7 @@ if (!isset($_SESSION['admin_id'])) {
                         </div>
 
                         <div class="btn-list">
-                            <button type="button" class="btn btn-success btn-lg btn-block" id="saveDataButton">
+                            <button type="submit" class="btn btn-success btn-lg btn-block" id="saveDataButton" form="apartmentForm">
                                 Сохранить в базу данных
                             </button>
                         </div>
@@ -177,6 +177,65 @@ if (!isset($_SESSION['admin_id'])) {
     </div>
 
     <?php include('footer_admin.php'); ?>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Слушаем изменения в поле выбора файлов
+            const fileInput = document.getElementById("fileInput");
+            const selectedFilesContainer = document.getElementById("selectedFiles");
+
+            fileInput.addEventListener("change", handleFileSelect);
+
+            // Слушаем нажатие кнопки сохранения данных
+            const saveDataButton = document.getElementById("saveDataButton");
+            saveDataButton.addEventListener("click", saveData);
+
+            function handleFileSelect(event) {
+                selectedFilesContainer.innerHTML = ""; // Очищаем контейнер перед добавлением новых файлов
+
+                const files = event.target.files;
+                for (const file of files) {
+                    const fileName = file.name;
+                    const fileSize = formatFileSize(file.size);
+
+                    const fileItem = document.createElement("div");
+                    fileItem.classList.add("file-item");
+                    fileItem.textContent = `${fileName} (${fileSize})`;
+
+                    selectedFilesContainer.appendChild(fileItem);
+                }
+            }
+
+            function formatFileSize(size) {
+                const kilo = 1024;
+                const mega = kilo * kilo;
+
+                if (size < kilo) {
+                    return `${size} B`;
+                } else if (size < mega) {
+                    return `${(size / kilo).toFixed(2)} KB`;
+                } else {
+                    return `${(size / mega).toFixed(2)} MB`;
+                }
+            }
+
+            function saveData() {
+                // Создаем объект FormData для отправки данных формы, включая файлы
+                const formData = new FormData(document.getElementById("apartmentForm"));
+
+                // Отправляем данные на сервер
+                fetch("save_data.php", {
+                        method: "POST",
+                        body: formData,
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        // Обработка ответа от сервера, например, вы можете вывести сообщение об успешном сохранении
+                        console.log(data);
+                    })
+                    .catch(error => console.error("Error:", error));
+            }
+        });
+    </script>
     <!-- End Google Tag Manager (noscript) -->
 </body>
 
