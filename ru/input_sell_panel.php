@@ -152,7 +152,11 @@ if (!isset($_SESSION['admin_id'])) {
                             </small>
                         </div>
 
-                        <?php include("dropzone.php"); ?>
+                        <div class="upload-container">
+                            <label for="fileInput" class="upload-btn">Select Photos</label>
+                            <input type="file" id="fileInput" class="file-input" accept=".png, .jpg, .jpeg" multiple>
+                            <div class="selected-files" id="selectedFiles"></div>
+                        </div>
 
                         <div class="btn-list">
                             <button type="button" class="btn btn-success btn-lg btn-block" id="saveDataButton">
@@ -160,61 +164,6 @@ if (!isset($_SESSION['admin_id'])) {
                             </button>
                         </div>
                     </form>
-                    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-                    <script>
-                        $(document).ready(function() {
-                            // Add a click event listener to the button with the specified id
-                            $('#saveDataButton').click(function() {
-                                // Call the function to save data
-                                saveDataToDatabase();
-                            });
-
-                            // Function to handle saving data to the database
-                            function saveDataToDatabase() {
-                                // Your AJAX request here
-                                $.ajax({
-                                    type: 'POST',
-                                    url: 'save_data.php', // Adjust the URL if needed
-                                    data: $('#apartmentForm').serialize(), // Serialize the form data
-                                    success: function(response) {
-                                        // Handle the response from the server
-                                        console.log(response);
-                                        // You can add further actions based on the response
-                                    },
-                                    error: function(error) {
-                                        // Handle errors
-                                        console.error('Error:', error);
-                                    }
-                                });
-                            }
-                        });
-                    </script>
-                    <script>
-                        function saveDataAndImages() {
-                            // Collect form data
-                            var formData = new FormData(document.getElementById('apartmentForm'));
-
-                            // Add uploaded images
-                            imageFiles.forEach(function(file, index) {
-                                formData.append('file' + index, file);
-                            });
-
-                            // Send AJAX request
-                            var xhr = new XMLHttpRequest();
-                            xhr.open('POST', 'save_data.php', true);
-                            xhr.onload = function() {
-                                if (xhr.status === 200) {
-                                    // Handle success (display a message, reset the form, etc.)
-                                    alert('Данные и фото успешно загружены');
-                                    document.getElementById('apartmentForm').reset();
-                                } else {
-                                    // Handle error
-                                    alert('Произошла ошибка при загрузке данных и фото');
-                                }
-                            };
-                            xhr.send(formData);
-                        }
-                    </script>
 
 
                 </div>

@@ -161,3 +161,24 @@ svg {
     border: 1px solid #BABABA;
     cursor: inherit;
 }
+
+/* new styles to upload photo button */
+.upload-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.upload-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.file-input {
+    display: none;
+}
+
+.selected-files {
+    margin-top: 10px;
+}

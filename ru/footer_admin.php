@@ -1,3 +1,4 @@
+<script src="../js/admin.js"></script>
 <script src="../vendors/scripts/core.js"></script>
 <script src="../vendors/scripts/script.min.js"></script>
 <script src="../vendors/scripts/process.js"></script>
@@ -16,7 +17,6 @@
 <script src="../src/plugins/datatables/js/pdfmake.min.js"></script>
 <script src="../src/plugins/datatables/js/vfs_fonts.js"></script>
 <!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> -->
-<script src="../js/admin.js"></script>
 <!-- Datatable Setting js -->
 <script src="../vendors/scripts/datatable-setting.js"></script>
 <!-- Google Tag Manager (noscript) -->
