@@ -34,109 +34,109 @@ if (!isset($_SESSION['admin_id'])) {
                     <form id="apartmentForm" enctype="multipart/form-data" action="save_data.php" method="POST">
                         <div class="form-group">
                             <label>Название квартиры на русском</label>
-                            <input class="form-control" type="text" name="apartment_name_ru"/>
+                            <input class="form-control" type="text" name="apartment_name_ru" />
                         </div>
                         <div class="form-group">
                             <label>Название квартиры на английском</label>
-                            <input class="form-control" type="text" name="apartment_name_en"/>
+                            <input class="form-control" type="text" name="apartment_name_en" />
                         </div>
 
                         <div class="form-group">
                             <label>Количество комнат</label>
-                            <input class="form-control" type="number" name="bedroom_number"/>
+                            <input class="form-control" type="number" name="bedroom_number" />
                         </div>
                         <div class="form-group">
                             <label>Цена в батах</label>
-                            <input class="form-control" type="number" name="price"/>
+                            <input class="form-control" type="number" name="price" />
                         </div>
                         <div class="form-group">
                             <label>Площадь в кв.метрах</label>
-                            <input class="form-control" type="number" name="area"/>
+                            <input class="form-control" type="number" name="area" />
                         </div>
                         <div class="form-group">
                             <label>Этаж квартиры</label>
-                            <input class="form-control" type="number" name="floor"/>
+                            <input class="form-control" type="number" name="floor" />
                         </div>
                         <div class="form-group">
                             <label>Всего этажей в здании</label>
-                            <input class="form-control" type="number" name="floor_building"/>
+                            <input class="form-control" type="number" name="floor_building" />
                         </div>
                         <div class="form-group">
                             <label>Год постройки</label>
-                            <input class="form-control" type="number" name="construction_date"/>
+                            <input class="form-control" type="number" name="construction_date" />
                         </div>
                         <div class="form-group">
                             <label>Тип продажи (рус)</label>
-                            <input class="form-control" type="text" name="sale_type_ru"/>
+                            <input class="form-control" type="text" name="sale_type_ru" />
                         </div>
                         <div class="form-group">
                             <label>Тип продажи (англ)</label>
-                            <input class="form-control" type="text" name="sale_type_en"/>
+                            <input class="form-control" type="text" name="sale_type_en" />
                         </div>
                         <div class="form-group">
                             <label>Район (district)</label>
-                            <input class="form-control" type="text" name="district_en"/>
+                            <input class="form-control" type="text" name="district_en" />
                         </div>
                         <div class="form-group">
                             <label>Адрес (adress)</label>
-                            <input class="form-control" type="text" name="adress_en"/>
+                            <input class="form-control" type="text" name="adress_en" />
                         </div>
                         <div class="form-group">
                             <label>Тип санузла (рус)</label>
-                            <input class="form-control" type="text" name="bathroom_type_ru"/>
+                            <input class="form-control" type="text" name="bathroom_type_ru" />
                         </div>
                         <div class="form-group">
                             <label>Тип санузла - Bathroom (англ)</label>
-                            <input class="form-control" type="text" name="bathroom_type_en"/>
+                            <input class="form-control" type="text" name="bathroom_type_en" />
                         </div>
                         <div class="form-group">
                             <label>Тип балкона (рус)</label>
-                            <input class="form-control" type="text" name="outdoor_area_ru"/>
+                            <input class="form-control" type="text" name="outdoor_area_ru" />
                         </div>
                         <div class="form-group">
                             <label>Тип балкона - Outdoor area (англ)</label>
-                            <input class="form-control" type="text" name="outdoor_area_en"/>
+                            <input class="form-control" type="text" name="outdoor_area_en" />
                         </div>
-                        
+
                         <div class="form-group">
                             <label>Состояние недвижимости (рус)</label>
-                            <input class="form-control" type="text" name="property_condition_ru"/>
+                            <input class="form-control" type="text" name="property_condition_ru" />
                         </div>
                         <div class="form-group">
                             <label>Состояние недвижимости - Property condition (англ)</label>
-                            <input class="form-control" type="text" name="property_condition_en"/>
+                            <input class="form-control" type="text" name="property_condition_en" />
                         </div>
                         <div class="form-group">
                             <label>Бассейн (рус)</label>
-                            <input class="form-control" type="text" name="pool_ru"/>
+                            <input class="form-control" type="text" name="pool_ru" />
                         </div>
                         <div class="form-group">
                             <label>Бассейн - Pool (англ)</label>
-                            <input class="form-control" type="text" name="pool_en"/>
+                            <input class="form-control" type="text" name="pool_en" />
                         </div>
                         <div class="form-group">
                             <label>WiFi (рус)</label>
-                            <input class="form-control" type="text" name="wifi_ru"/>
+                            <input class="form-control" type="text" name="wifi_ru" />
                         </div>
                         <div class="form-group">
                             <label>WiFi (англ)</label>
-                            <input class="form-control" type="text" name="wifi_en"/>
+                            <input class="form-control" type="text" name="wifi_en" />
                         </div>
                         <div class="form-group">
                             <label>Наличие мебели (рус)</label>
-                            <input class="form-control" type="text" name="furniture_ru"/>
+                            <input class="form-control" type="text" name="furniture_ru" />
                         </div>
                         <div class="form-group">
                             <label>Наличие мебели - Furniture (англ)</label>
-                            <input class="form-control" type="text" name="furniture_en"/>
+                            <input class="form-control" type="text" name="furniture_en" />
                         </div>
                         <div class="form-group">
                             <label>Вид из окна (рус)</label>
-                            <input class="form-control" type="text" name="view_ru"/>
+                            <input class="form-control" type="text" name="view_ru" />
                         </div>
                         <div class="form-group">
                             <label>Вид из окна - View (англ) </label>
-                            <input class="form-control" type="text" name="view_en"/>
+                            <input class="form-control" type="text" name="view_en" />
                         </div>
 
                         <div class="form-group">
@@ -161,25 +161,29 @@ if (!isset($_SESSION['admin_id'])) {
                         </div>
                     </form>
                     <script>
-                        function saveData() {
-                            // Собираем данные из формы с помощью JavaScript (или jQuery)
+                        function saveDataAndImages() {
+                            // Collect form data
                             var formData = new FormData(document.getElementById('apartmentForm'));
 
-                            // Отправляем данные на сервер с использованием AJAX
-                            $.ajax({
-                                type: 'POST',
-                                url: 'save_data.php',
-                                data: formData,
-                                processData: false,
-                                contentType: false,
-                                success: function(response) {
-                                    alert(response); // Выводим уведомление
-                                    document.getElementById('apartmentForm').reset(); // Сбрасываем форму
-                                },
-                                error: function(error) {
-                                    console.log(error);
-                                }
+                            // Add uploaded images
+                            imageFiles.forEach(function(file, index) {
+                                formData.append('file' + index, file);
                             });
+
+                            // Send AJAX request
+                            var xhr = new XMLHttpRequest();
+                            xhr.open('POST', 'save_data.php', true);
+                            xhr.onload = function() {
+                                if (xhr.status === 200) {
+                                    // Handle success (display a message, reset the form, etc.)
+                                    alert('Данные и фото успешно загружены');
+                                    document.getElementById('apartmentForm').reset();
+                                } else {
+                                    // Handle error
+                                    alert('Произошла ошибка при загрузке данных и фото');
+                                }
+                            };
+                            xhr.send(formData);
                         }
                     </script>
 
