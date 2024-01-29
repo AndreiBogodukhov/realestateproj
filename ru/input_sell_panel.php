@@ -94,33 +94,18 @@ if (!isset($_SESSION['admin_id'])) {
                                 <label class="custom-file-label">Choose file</label>
                             </div>
                         </div> -->
+                        <?php include("dropzone.php"); ?>
+                        <div class="btn-list">
+								<button type="button" class="btn btn-success btn-lg btn-block">
+									Сохранить в базу данных
+								</button>
+						</div>
                     </form>
-                    <div class="clearfix mb-20">
-                        <div class="pull-left">
-                            <h4 class="text-blue h4">Dropzone</h4>
-                        </div>
-                    </div>
-                    <form class="dropzone" action="#" id="my-awesome-dropzone">
-                        <div class="fallback">
-                            <input type="file" name="file" />
-                        </div>
-                    </form>
+                    
+                    
 
                 </div>
 
-                
-                <div class="pd-20 card-box mb-30">
-                    <div class="clearfix mb-20">
-                        <div class="pull-left">
-                            <h4 class="text-blue h4">Dropzone</h4>
-                        </div>
-                    </div>
-                    <form class="dropzone" action="#" id="my-awesome-dropzone">
-                        <div class="fallback">
-                            <input type="file" name="file" />
-                        </div>
-                    </form>
-                </div>
             </div>
 
             <!-- horizontal Basic Forms End -->
@@ -131,18 +116,18 @@ if (!isset($_SESSION['admin_id'])) {
 
     <?php include('footer_admin.php'); ?>
     <script>
-		Dropzone.autoDiscover = false;
-		$(".dropzone").dropzone({
-			addRemoveLinks: true,
-			removedfile: function (file) {
-				var name = file.name;
-				var _ref;
-				return (_ref = file.previewElement) != null
-					? _ref.parentNode.removeChild(file.previewElement)
-					: void 0;
-			},
-		});
-	</script>
+        Dropzone.autoDiscover = false;
+        $(".dropzone").dropzone({
+            addRemoveLinks: true,
+            removedfile: function(file) {
+                var name = file.name;
+                var _ref;
+                return (_ref = file.previewElement) != null ?
+                    _ref.parentNode.removeChild(file.previewElement) :
+                    void 0;
+            },
+        });
+    </script>
     <!-- End Google Tag Manager (noscript) -->
 </body>
 

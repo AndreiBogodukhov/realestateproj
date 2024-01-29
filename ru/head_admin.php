@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../src/styles/style.css">
     <link rel="stylesheet" href="../src/styles/theme.css">
     <link rel="stylesheet" href="../src/styles/media.css">
+    <link rel="stylesheet" href="../css/admin_styles.css">
     <title>Панель администратора</title>
 
     <!-- Site favicon -->
