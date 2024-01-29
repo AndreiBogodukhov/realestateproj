@@ -50,21 +50,33 @@ $sql = "INSERT INTO apartment_owner (apartment_name_ru, apartment_name_en, bedro
 VALUES ('$apartmentNameRu', '$apartmentNameEn', $bedroomNumber, $price, $area, $floor, $floorBuilding, $constructionDate, '$saleTypeRu', '$saleTypeEn', '$descriptionRu', '$descriptionEn', '$propertyType', '$districtEn', '$addressEn', '$bathroomTypeRu', '$bathroomTypeEn', '$outdoorAreaRu', '$outdoorAreaEn', '$propertyConditionRu', '$propertyConditionEn', '$poolRu', '$poolEn', '$wifiRu', '$wifiEn', '$ownershipRu', '$ownershipEn', '$furnitureRu', '$furnitureEn', '$viewRu', '$viewEn')";
 
 if ($conn->query($sql) === TRUE) {
-    $lastInsertedId = $conn->insert_id; // Получаем ID последней вставленной записи
+    // Get the last inserted ID
+    $lastInsertedId = $conn->insert_id;
 
-    // Вставка данных в таблицу photo_apartment_owner
-    foreach ($_FILES['file']['tmp_name'] as $key => $tmp_name) {
-        $photoPath = "../photos/photo_apartment_owner/" . $_FILES['file']['name'][$key];
-        move_uploaded_file($tmp_name, $photoPath);
+    // Handle uploaded images
+    $targetDir = "../photos/photo_apartment_owner/";
 
-        $sqlPhoto = "INSERT INTO photo_apartment_owner (id_apartment_owner) VALUES ($lastInsertedId)";
-        $conn->query($sqlPhoto);
+    foreach ($_FILES as $key => $file) {
+        $targetFile = $targetDir . basename($file["name"]);
+
+        // Move the uploaded file to the target directory
+        if (move_uploaded_file($file["tmp_name"], $targetFile)) {
+            // Insert file information into a separate table (adjust the table structure as needed)
+            $imageInsertSql = "INSERT INTO image_table (apartment_id, file_path) 
+                               VALUES ('$lastInsertedId', '$targetFile')";
+
+            $conn->query($imageInsertSql);
+        } else {
+            // Handle file upload error
+            echo "Sorry, there was an error uploading your file.";
+        }
     }
 
-    echo "Данные и фото успешно загружены";
+    echo "Data and images successfully saved!";
 } else {
-    echo "Ошибка: " . $sql . "<br>" . $conn->error;
+    // Handle SQL error
+    echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
+// Close the database connection
 $conn->close();
-?>
