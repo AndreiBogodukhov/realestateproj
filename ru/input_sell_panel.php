@@ -155,11 +155,40 @@ if (!isset($_SESSION['admin_id'])) {
                         <?php include("dropzone.php"); ?>
 
                         <div class="btn-list">
-                            <button type="button" class="btn btn-success btn-lg btn-block">
+                            <button type="button" class="btn btn-success btn-lg btn-block" id="saveDataButton">
                                 Сохранить в базу данных
                             </button>
                         </div>
                     </form>
+                    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+                    <script>
+                        $(document).ready(function() {
+                            // Add a click event listener to the button with the specified id
+                            $('#saveDataButton').click(function() {
+                                // Call the function to save data
+                                saveDataToDatabase();
+                            });
+
+                            // Function to handle saving data to the database
+                            function saveDataToDatabase() {
+                                // Your AJAX request here
+                                $.ajax({
+                                    type: 'POST',
+                                    url: 'save_data.php', // Adjust the URL if needed
+                                    data: $('#apartmentForm').serialize(), // Serialize the form data
+                                    success: function(response) {
+                                        // Handle the response from the server
+                                        console.log(response);
+                                        // You can add further actions based on the response
+                                    },
+                                    error: function(error) {
+                                        // Handle errors
+                                        console.error('Error:', error);
+                                    }
+                                });
+                            }
+                        });
+                    </script>
                     <script>
                         function saveDataAndImages() {
                             // Collect form data
