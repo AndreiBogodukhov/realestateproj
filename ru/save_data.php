@@ -65,6 +65,12 @@ if (!empty($_FILES['fileInput']['name'][0])) {
     }
 
     // Цикл для обработки каждого файла
+    $uploadTempDir = "D:/Project_Files/Ampps/tmp/";
+
+    if (!is_writable($uploadTempDir)) {
+        echo json_encode(array('success' => false, 'message' => 'Ошибка: временная директория не доступна для записи.'));
+        exit();
+    }
     foreach ($uploadedFiles['name'] as $i => $filename) {
         $tmpFilePath = $uploadedFiles['tmp_name'][$i];
 
