@@ -153,9 +153,9 @@ if (!isset($_SESSION['admin_id'])) {
                         </div>
 
                         <div class="upload-container">
-                            <label for="fileInput" class="upload-btn">Select Photos</label>
-                            <input type="file" id="fileInput" class="file-input" accept=".png, .jpg, .jpeg" multiple>
-                            <div class="selected-files" id="selectedFiles"></div>
+                            <label for="fileInput" class="upload-btn-new">Select Photos</label>
+                            <input type="file" id="fileInput" class="file-input-new" accept=".png, .jpg, .jpeg" multiple>
+                            <div class="selected-files-new" id="selectedFiles"></div>
                         </div>
 
                         <div class="btn-list">
@@ -177,19 +177,6 @@ if (!isset($_SESSION['admin_id'])) {
     </div>
 
     <?php include('footer_admin.php'); ?>
-    <script>
-        Dropzone.autoDiscover = false;
-        $(".dropzone").dropzone({
-            addRemoveLinks: true,
-            removedfile: function(file) {
-                var name = file.name;
-                var _ref;
-                return (_ref = file.previewElement) != null ?
-                    _ref.parentNode.removeChild(file.previewElement) :
-                    void 0;
-            },
-        });
-    </script>
     <!-- End Google Tag Manager (noscript) -->
 </body>
 
