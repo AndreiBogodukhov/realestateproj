@@ -42,15 +42,15 @@
                     </li>
                     <li class="cs-li cs-dropdown" tabindex="0">
                         <span class="cs-li-link">
-                            ПРОДАЖА
+                            АРЕНДА
                             <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
                         </span>
                         <ul class="cs-drop-ul">
                             <li class="cs-drop-li">
-                                <a href="" class="cs-li-link cs-drop-link">ПОСУТОЧНО</a>
+                                <a href="" class="cs-li-link cs-drop-link">КВАРТИРЫ ОТ СОБСТВЕННИКОВ</a>
                             </li>
                             <li class="cs-drop-li">
-                                <a href="" class="cs-li-link cs-drop-link">НА ДОЛГИЙ СРОК</a>
+                                <a href="" class="cs-li-link cs-drop-link">ВИЛЛЫ ОТ СОБСТВЕННИКОВ</a>
                             </li>
                         </ul>
                     </li>
@@ -68,6 +68,34 @@
                         <a href="contacts.php" class="cs-li-link">
                             КОНТАКТЫ
                         </a>
+                    </li>
+                    <li class="cs-li cs-dropdown" tabindex="0">
+                        <span class="cs-li-link">
+                            RU
+                            <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                        </span>
+                        <ul class="cs-drop-ul">
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">RU</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">EN</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cs-li cs-dropdown" tabindex="0">
+                        <span class="cs-li-link">
+                            
+                            <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                        </span>
+                        <ul class="cs-drop-ul">
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">КВАРТИРЫ ОТ СОБСТВЕННИКОВ</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">ВИЛЛЫ ОТ СОБСТВЕННИКОВ</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
