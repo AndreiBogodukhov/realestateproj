@@ -49,10 +49,10 @@
                         Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh tortor id aliquet lectus proin nibh condimentum.
                         </p>
                         <a href="about_us.php" class="cs-button-solid">Узнать больше о нас</a>
-                        <a href="" class="cs-button-transparent">
+                        <!-- <a href="" class="cs-button-transparent">
                         <img class="cs-img" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg" alt="play icon" width="17" height="17">
                         Смотреть видео
-                        </a>
+                        </a> -->
                 </div>
             </div>
 
