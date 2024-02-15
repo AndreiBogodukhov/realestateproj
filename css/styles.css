@@ -626,6 +626,9 @@ body {
     /* 20px - 36px */
     gap: clamp(1.25rem, 2.6vw, 2.25rem);
   }
+  #cs-navigation .left-buttons {
+    margin-left: 50px;
+  }
   #cs-navigation .cs-li {
     list-style: none;
     padding: 2rem 0;
