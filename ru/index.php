@@ -43,10 +43,10 @@
         <section id="hero-229">
             <div class="cs-container">
                 <div class="cs-flex-group">
-                    <span class="cs-topper">Агенство недвижимости</span>
-                        <h1 class="cs-title">Покупка и аренда недвижимости на Пхукете</h1>
-                        <p class="cs-text">
-                        Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh tortor id aliquet lectus proin nibh condimentum.
+                    <span id="agency" class="cs-topper">Агенство недвижимости</span>
+                        <h1 id="h1_title" class="cs-title">Покупка и аренда недвижимости на Пхукете</h1>
+                        <p id="h1_about" class="cs-text">
+                        Мы агенство, которое занимается этим
                         </p>
                         <a href="about_us.php" class="cs-button-solid">Узнать больше о нас</a>
                         <!-- <a href="" class="cs-button-transparent">
