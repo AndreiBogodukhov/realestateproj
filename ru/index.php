@@ -306,5 +306,7 @@
     <script src="../js/dark.js"></script>
     <script src="../js/javaScript.js"></script>
     <script src="../js/bootstrap.js"></script>
+    <script src="../js/translation.js"></script>
+
 </body>
 </html>
