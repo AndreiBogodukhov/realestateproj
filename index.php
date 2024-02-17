@@ -59,9 +59,9 @@
 
             <!-- Background Image -->
             <picture class="cs-picture">
-                <source media="(max-width: 600px)" srcset="img/main_theme.jpg">
-                <source media="(min-width: 601px)" srcset="img/main_theme.jpg">
-                <img loading="lazy" decoding="async" src="img/main_theme.jpg" alt="mountains" width="2250" height="1500" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="img/banner.jpg">
+                <source media="(min-width: 601px)" srcset="img/banner.jpg">
+                <img loading="lazy" decoding="async" src="img/banner.jpg" alt="mountains" width="2250" height="1500" aria-hidden="true">
             </picture>
         </section>
 
@@ -78,9 +78,9 @@
                     <!-- Image 1 -->
                     <li class="cs-item cs-item-1">
                         <picture class="cs-picture">
-                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction1-m.jpg">
-                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction1.jpg">
-                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction1.jpg" alt="man grinding steel" width="529" height="256">
+                            <source media="(max-width: 600px)" srcset="img/dev_condo.jpg">
+                            <source media="(min-width: 601px)" srcset="img/dev_condo.jpg">
+                            <img loading="lazy" decoding="async" src="img/dev_condo.jpg" alt="off-plan condos" width="529" height="256">
                         </picture>
                         <!-- Hover Box -->
                         <div class="cs-hover-box">
@@ -108,9 +108,9 @@
                     <!-- Image 3 -->
                     <li class="cs-item cs-item-3">
                         <picture class="cs-picture">
-                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction3-m.jpg">
-                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction3.jpg">
-                            <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction3.jpg" alt="steel rebar grid" width="255" height="255">
+                            <source media="(max-width: 600px)" srcset="img/owner_condo.jpg">
+                            <source media="(min-width: 601px)" srcset="img/owner_condo.jpg">
+                            <img aria-hidden="true" loading="lazy" decoding="async" src="img/owner_condo.jpg" alt="resale condos" width="255" height="255">
                         </picture>
                         <!-- Hover Box -->
                         <div class="cs-hover-box">
@@ -124,9 +124,9 @@
                     <!-- Image 5 -->
                     <li class="cs-item cs-item-5">
                         <picture class="cs-picture">
-                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction5-m.jpg">
-                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction5.jpg">
-                            <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction5.jpg" alt="appliance" width="255" height="255">
+                            <source media="(max-width: 600px)" srcset="img/owner_villa.jpg">
+                            <source media="(min-width: 601px)" srcset="img/owner_villa.jpg">
+                            <img aria-hidden="true" loading="lazy" decoding="async" src="img/owner_villa.jpg" alt="resale villas" width="255" height="255">
                         </picture>
                         <!-- Hover Box -->
                         <div class="cs-hover-box">
@@ -139,9 +139,9 @@
                     <!-- Image 6 -->
                     <li class="cs-item cs-item-6">
                         <picture class="cs-picture">
-                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction6-m.jpg">
-                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction6.jpg">
-                            <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction6.jpg" alt="modern home" width="255" height="530">
+                            <source media="(max-width: 600px)" srcset="img/land_plot.jpg">
+                            <source media="(min-width: 601px)" srcset="img/land_plot.jpg">
+                            <img aria-hidden="true" loading="lazy" decoding="async" src="img/land_plot.jpg" alt="Land plots" width="255" height="530">
                         </picture>
 
                         <div class="cs-hover-box">
@@ -169,9 +169,9 @@
                     <!-- Image 2 -->
                     <li class="cs-item cs-item-2">
                         <picture class="cs-picture">
-                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2-m.jpg">
-                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2.jpg">
-                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2.jpg" alt="wood worker" width="255" height="255">
+                            <source media="(max-width: 600px)" srcset="img/rent_villa.jpg">
+                            <source media="(min-width: 601px)" srcset="img/rent_villa.jpg">
+                            <img loading="lazy" decoding="async" src="img/rent_villa.jpg" alt="rent villa" width="255" height="255">
                         </picture>
                         <!-- Hover Box -->
                         <div class="cs-hover-box">
@@ -183,9 +183,9 @@
                     </li>
                     <li class="cs-item cs-item-3">
                         <picture class="cs-picture">
-                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2-m.jpg">
-                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2.jpg">
-                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2.jpg" alt="wood worker" width="255" height="255">
+                            <source media="(max-width: 600px)" srcset="img/rent_condo.jpg">
+                            <source media="(min-width: 601px)" srcset="img/rent_condo.jpg">
+                            <img loading="lazy" decoding="async" src="img/rent_condo.jpg" alt="rent condo" width="255" height="255">
                         </picture>
                         <!-- Hover Box -->
                         <div class="cs-hover-box">

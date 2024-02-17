@@ -1146,7 +1146,7 @@ body {
 /* Desktop Parallax Effect - 1300px */
 @media only screen and (min-width: 81.25rem) {
   #hero-229 {
-      background: url("../img/main_theme.jpg");
+      background: url("img/banner.jpg");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
