@@ -46,7 +46,7 @@
                 <div class="cs-content">
                     <span id="au_statistics" class="cs-topper">Статистика</span>
                     <h2 id="au_au" class="cs-title">Немного о нас</h2>
-                    <p class="cs-text">
+                    <p id="au_first_text" class="cs-text">
                     Мы молодая компания в мире недвижимости, но наш индивидуальный подход делает нас уникальными. Наша целеустремленная команда стремится к тому, чтобы каждый клиент получил именно то, что ему нужно, с особенным вниманием к деталям и предпочтениям
                     </p>
                     <picture class="cs-picture cs-picture1">
@@ -68,15 +68,15 @@
                     <ul class="cs-stats">
                         <li class="cs-stat">
                             <span class="cs-number">99%</span>
-                            <span class="cs-desc">Позитивные отклики</span>
+                            <span id="au_number_1" class="cs-desc">Позитивные отклики</span>
                         </li>
                         <li class="cs-stat">
                             <span class="cs-number">9%</span>
-                            <span class="cs-desc">Средняя ставка</span>
+                            <span id="au_number_2" class="cs-desc">Средняя ставка</span>
                         </li>
                         <li class="cs-stat">
                             <span class="cs-number">24/7</span>
-                            <span class="cs-desc">Онлайн поддержка</span>
+                            <span id="au_number_3" class="cs-desc">Онлайн поддержка</span>
                         </li>
                     </ul>
                 </div>
@@ -104,15 +104,15 @@
                 </div>
                 <!-- Right Content Section-->
                 <div class="cs-content">
-                    <span class="cs-topper">Наша миссия и видение</span>
-                    <h2 class="cs-title">Лучшие в своей нише</h2>
-                    <p class="cs-text">
+                    <span id="au_mission" class="cs-topper">Наша миссия и видение</span>
+                    <h2 id="au_thebest_head" class="cs-title">Лучшие в своей нише</h2>
+                    <p id="au_thebest" class="cs-text">
                     В мире однотипных предложений мы выделяемся как молодая компания с индивидуальным подходом. Наше стремление к инновациям и гибкость в работе позволяют нам точно понимать потребности каждого клиента и предлагать персонализированные решения
                     </p>
                     <div class="cs-content-flair">
                         <div class="cs-bar">
-                            <h3 class="cs-h3">
-                                Savings Strategies
+                            <h3 id="au_h3_1" class="cs-h3">
+                            Сберегающие стратегии
                                 <span class="cs-percentage">83%</span>
                             </h3>
                             <!--change the --progress number to match the percentage in cs-number-->
@@ -121,8 +121,8 @@
                             </div>
                         </div>
                         <div class="cs-bar">
-                            <h3 class="cs-h3">
-                                Tax Planning
+                            <h3 id="au_h3_2" class="cs-h3">
+                            Планирование налогов
                                 <span class="cs-percentage">72%</span>
                             </h3>
                             <!--change the --progress number to match the percentage in cs-number-->
@@ -131,8 +131,8 @@
                             </div>
                         </div>
                         <div class="cs-bar">
-                            <h3 class="cs-h3">
-                                Trusted Company
+                            <h3 id="au_h3_3" class="cs-h3">
+                            Доверие компании
                                 <span class="cs-percentage">96%</span>
                             </h3>
                             <!--change the --progress number to match the percentage in cs-number-->
@@ -153,51 +153,17 @@
 <section id="RPsbs-1445">
     <div class="cs-container">
         <picture class="cs-picture">
-            <source media="(max-width: 600px)" srcset="../img/villa_phuket_1.webp">
-            <source media="(min-width: 601px)" srcset="../img/villa_phuket_1.webp">
-            <img loading="lazy" decoding="async" src="../img/villa_phuket_1.webp" alt="volunteers" width="650" height="600" aria-hidden="true">
+            <source media="(max-width: 600px)" srcset="img/villa_phuket_1.webp">
+            <source media="(min-width: 601px)" srcset="img/villa_phuket_1.webp">
+            <img loading="lazy" decoding="async" src="img/villa_phuket_1.webp" alt="volunteers" width="650" height="600" aria-hidden="true">
         </picture>
         <div class="cs-content">
-            <span class="cs-topper">Giving Back</span>
-            <h2 class="cs-title">How To Donate Us</h2>
-            <p class="cs-text">
-                Our impact is about more than moving money to where it’s needed most it’s also about helping nonprofits access information and ideas that will help them listen, learn, and grow. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum hic consequuntur porro repudiandae officiis, necessitatibus vero natus nihil suscipit.
+            <!-- <span class="cs-topper">Giving Back</span> -->
+            <h2 id="au_individ" class="cs-title">Индивидуальный подход</h2>
+            <p id="au_individ_text" class="cs-text">
+            Наша команда стремится помогать людям не просто находить дом, но и настоящее убежище, где их сердца наполняются счастьем. Мы уделяем особое внимание каждому клиенту, стремясь не только к профессионализму, но и к глубокому чувству заботы. Наш подход к работе не ограничивается количеством сделок, мы стремимся к высокому качеству в каждой из них.
             </p>
-            <ul class="cs-card-group">
-                <li class="cs-li">
-                    <picture class="cs-li-picture">
-                        <img class="cs-li-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/volunteer1.svg" decoding="async" alt="icon" width="32" height="32" loading="lazy">
-                    </picture>
-                    <div class="cs-flex">
-                        <h3 class="cs-h3">Become a Volunteer</h3>
-                        <p class="cs-li-text">
-                            It’s no secret that one person alone cannot overcome the greatest humanitarian crises. It truly takes all of us.
-                        </p>
-                    </div>
-                </li>
-                <li class="cs-li">
-                    <picture class="cs-li-picture">
-                        <img class="cs-li-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/volunteer2.svg" decoding="async" alt="icon" width="32" height="32" loading="lazy">
-                    </picture>
-                    <div class="cs-flex">
-                        <h3 class="cs-h3">Quick Fundraise</h3>
-                        <p class="cs-li-text">
-                            It’s no secret that one person alone cannot overcome the greatest humanitarian crises. It truly takes all of us.
-                        </p>
-                    </div>
-                </li>
-                <li class="cs-li">
-                    <picture class="cs-li-picture">
-                        <img class="cs-li-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/volunteer3.svg" decoding="async" alt="icon" width="32" height="32" loading="lazy">
-                    </picture>
-                    <div class="cs-flex">
-                        <h3 class="cs-h3">Start Donating</h3>
-                        <p class="cs-li-text">
-                            It’s no secret that one person alone cannot overcome the greatest humanitarian crises. It truly takes all of us.
-                        </p>
-                    </div>
-                </li>
-            </ul>     
+            
         </div>
     </div>
 </section>
@@ -209,23 +175,23 @@
 <section id="RPsbsr-1445">
     <div class="cs-container">
         <picture class="cs-picture">
-            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/volunteers.jpg">
-            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/volunteers.jpg">
-            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/volunteers.jpg" alt="volunteers" width="650" height="600" aria-hidden="true">
+            <source media="(max-width: 600px)" srcset="img/villa_phuket_2.jpg">
+            <source media="(min-width: 601px)" srcset="img/villa_phuket_2.jpg">
+            <img loading="lazy" decoding="async" src="img/villa_phuket_2.jpg" alt="volunteers" width="650" height="600" aria-hidden="true">
         </picture>
         <div class="cs-content">
-            <span class="cs-topper">Giving Back</span>
-            <h2 class="cs-title">How To Donate Us</h2>
-            <p class="cs-text">
-                Our impact is about more than moving money to where it’s needed most it’s also about helping nonprofits access information and ideas that will help them listen, learn, and grow. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum hic consequuntur porro repudiandae officiis, necessitatibus vero natus nihil suscipit.
+            <!-- <span class="cs-topper">Giving Back</span> -->
+            <h2 id="au_diff" class="cs-title">Наша особенность</h2>
+            <p id="au_text_4" class="cs-text">
+            Каждый дом, предлагаемый нашей компанией, проходит тщательный отбор, чтобы соответствовать не только красоте, но и образу жизни каждого клиента. Мы гордимся разнообразием предлагаемых вариантов – от уютных квартир в центре города до роскошных вилл на природе. Понимая, что дом – это не просто строение, мы стремимся создать для наших клиентов незабываемые моменты и воспоминания.
             </p>
-            <p class="cs-text">
-                Our impact is about more than moving money to where it’s needed most it’s also about helping nonprofits access information and ideas that will help them listen, learn, and grow. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum hic consequuntur porro repudiandae officiis, necessitatibus vero natus nihil suscipit.
+            <p id="au_text_5" class="cs-text">
+            Наша гордость – наши клиенты, которые становятся не просто покупателями, а членами нашей большой семьи. Мы не только успешно завершаем сделки, но и поддерживаем теплые и дружеские отношения. Мы уверены, что ваш успех - это и наш успех, и мы всегда готовы идти вперед вместе с вами.
             </p>    
             <!-- <a href="" class="cs-button-solid">Donate Now</a>         -->
         </div>
     </div>
-</section> -->
+</section>
                                 
 
 
