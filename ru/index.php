@@ -47,7 +47,7 @@
                     <span id="agency" class="cs-topper">Агенство недвижимости</span>
                     <h1 id="h1_title" class="cs-title">Покупка и аренда недвижимости на Пхукете</h1>
                     <p id="h1_about" class="cs-text">
-                        Мы агенство, которое занимается этим
+                        Мы агенство, которое поможет Вам подобрать кондо, квартиру или виллу
                     </p>
                     <a id="h1_button" href="about_us.php" class="cs-button-solid">Узнать больше о нас</a>
                     <!-- <a href="" class="cs-button-transparent">
@@ -120,7 +120,7 @@
                             </a>
                         </div>
                     </li>
-                    
+
                     <!-- Image 5 -->
                     <li class="cs-item cs-item-5">
                         <picture class="cs-picture">
@@ -143,7 +143,7 @@
                             <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction6.jpg">
                             <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction6.jpg" alt="modern home" width="255" height="530">
                         </picture>
-                        
+
                         <div class="cs-hover-box">
                             <h3 id="land" class="cs-h3">Земельные участки</h3>
                             <a id="goto_5" class="cs-link" aria-label="read more about this project" href="">
@@ -165,7 +165,7 @@
                     </p>
                 </div>
                 <ul class="cs-image-group">
-                    
+
                     <!-- Image 2 -->
                     <li class="cs-item cs-item-2">
                         <picture class="cs-picture">
@@ -196,7 +196,7 @@
                         </div>
                     </li>
                     <!-- Image 3 -->
-                    
+
                 </ul>
                 <!-- <a href="" class="cs-button-solid">View Full Gallery</a> -->
             </div>
@@ -277,41 +277,41 @@
                         </li>
                         <li class="cs-faq-item">
                             <button class="cs-button">
-                                <span id="q5" class="cs-button-text">
+                                <span id="q7" class="cs-button-text">
                                     What are your prices for brake replacement?
                                 </span>
                             </button>
-                            <p id="q5_text" class="cs-item-p">
+                            <p id="q7_text" class="cs-item-p">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
                             </p>
                         </li>
                         <li class="cs-faq-item">
                             <button class="cs-button">
-                                <span id="q5" class="cs-button-text">
+                                <span id="q8" class="cs-button-text">
                                     What are your prices for brake replacement?
                                 </span>
                             </button>
-                            <p id="q5_text" class="cs-item-p">
+                            <p id="q8_text" class="cs-item-p">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
                             </p>
                         </li>
                         <li class="cs-faq-item">
                             <button class="cs-button">
-                                <span id="q5" class="cs-button-text">
+                                <span id="q9" class="cs-button-text">
                                     What are your prices for brake replacement?
                                 </span>
                             </button>
-                            <p id="q5_text" class="cs-item-p">
+                            <p id="q9_text" class="cs-item-p">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
                             </p>
                         </li>
                         <li class="cs-faq-item">
                             <button class="cs-button">
-                                <span id="q5" class="cs-button-text">
+                                <span id="q10" class="cs-button-text">
                                     What are your prices for brake replacement?
                                 </span>
                             </button>
-                            <p id="q5_text" class="cs-item-p">
+                            <p id="q10_text" class="cs-item-p">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
                             </p>
                         </li>

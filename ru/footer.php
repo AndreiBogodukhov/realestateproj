@@ -6,7 +6,7 @@
                 <img class="cs-logo-img light" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Footer/logo-light.svg" alt="logo" width="240" height="32">
             </a> -->
             <p class="cs-text">
-                Etiam nulla ultrices consequat, posuere nulla. Ac iaculis lorem phasellus ultrices adipiscing viverra sit ut quam. In diam mattis elementum diam at sed ultricies.
+            Наше агентство недвижимости предлагает комплексные решения для покупки, продажи и аренды недвижимости в самых востребованных районах. Доверьте нам свои потребности в недвижимости, и мы обеспечим вас профессиональным сервисом и индивидуальным подходом
             </p>
         </div>
         <!-- Links -->
