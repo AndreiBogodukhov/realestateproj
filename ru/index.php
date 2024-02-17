@@ -275,7 +275,46 @@
                                 Some cleaning plans require a minimum commitment term. Cancelling your plan before the minimum term is complete will result in a $99 fee. If you want to learn more information about how to cancel, please inbox us.
                             </p>
                         </li>
-                        
+                        <li class="cs-faq-item">
+                            <button class="cs-button">
+                                <span id="q5" class="cs-button-text">
+                                    What are your prices for brake replacement?
+                                </span>
+                            </button>
+                            <p id="q5_text" class="cs-item-p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                            </p>
+                        </li>
+                        <li class="cs-faq-item">
+                            <button class="cs-button">
+                                <span id="q5" class="cs-button-text">
+                                    What are your prices for brake replacement?
+                                </span>
+                            </button>
+                            <p id="q5_text" class="cs-item-p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                            </p>
+                        </li>
+                        <li class="cs-faq-item">
+                            <button class="cs-button">
+                                <span id="q5" class="cs-button-text">
+                                    What are your prices for brake replacement?
+                                </span>
+                            </button>
+                            <p id="q5_text" class="cs-item-p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                            </p>
+                        </li>
+                        <li class="cs-faq-item">
+                            <button class="cs-button">
+                                <span id="q5" class="cs-button-text">
+                                    What are your prices for brake replacement?
+                                </span>
+                            </button>
+                            <p id="q5_text" class="cs-item-p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                            </p>
+                        </li>
                     </ul>
                 </div>
             </div>
