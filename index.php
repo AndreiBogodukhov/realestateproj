@@ -61,7 +61,7 @@
             <picture class="cs-picture">
                 <source media="(max-width: 600px)" srcset="img/banner.jpg">
                 <source media="(min-width: 601px)" srcset="img/banner.jpg">
-                <img loading="lazy" decoding="async" src="img/banner.jpg" alt="mountains" width="2250" height="1500" aria-hidden="true">
+                <img loading="lazy" decoding="async" src="img/banner.jpg" alt="phuket villa" width="2250" height="1500" aria-hidden="true">
             </picture>
         </section>
 
