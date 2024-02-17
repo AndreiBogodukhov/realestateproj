@@ -14,20 +14,20 @@
             <li id="f_sitemap" class="cs-nav-li">
                 <span class="cs-header">Карта сайта</span>
             </li>
-            <li id="f_home" class="cs-nav-li">
-                <a class="cs-nav-link" href="">Домашняя</a>
+            <li class="cs-nav-li">
+                <a id="f_home"  class="cs-nav-link" href="index.php">Домашняя</a>
             </li>
-            <li id="f_sell" class="cs-nav-li">
-                <a class="cs-nav-link" href="">Продажа недвижимости</a>
+            <li class="cs-nav-li">
+                <a id="f_sell" class="cs-nav-link" href="">Продажа недвижимости</a>
             </li>
-            <li id="f_rent" class="cs-nav-li">
-                <a class="cs-nav-link" href="">Аренда</a>
+            <li class="cs-nav-li">
+                <a id="f_rent" class="cs-nav-link" href="">Аренда</a>
             </li>
-            <li id="f_empl" class="cs-nav-li">
-                <a class="cs-nav-link" href="signin.php">Сотрудники</a>
+            <li class="cs-nav-li">
+                <a id="f_empl" class="cs-nav-link" href="signin.php">Сотрудники</a>
             </li>
-            <li id="f_contacts" class="cs-nav-li">
-                <a class="cs-nav-link" href="registration.php">Контакты</a>
+            <li class="cs-nav-li">
+                <a id="f_contacts" class="cs-nav-link" href="registration.php">Контакты</a>
             </li>
         </ul>
         <!-- Contact Info -->
