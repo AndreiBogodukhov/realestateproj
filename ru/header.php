@@ -18,54 +18,54 @@
             <div class="cs-ul-wrapper">
                 <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
                     <li class="cs-li cs-dropdown" tabindex="0">
-                        <span class="cs-li-link">
+                        <span id="sell" class="cs-li-link">
                             ПРОДАЖА
                             <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
                         </span>
                         <ul class="cs-drop-ul">
                             <li class="cs-drop-li">
-                                <a href="" class="cs-li-link cs-drop-link">КВАРТИРЫ ОТ ЗАСТРОЙЩИКОВ</a>
+                                <a id="nav_dev_room" href="" class="cs-li-link cs-drop-link">КВАРТИРЫ ОТ ЗАСТРОЙЩИКОВ</a>
                             </li>
                             <li class="cs-drop-li">
-                                <a href="villa_dev.php" class="cs-li-link cs-drop-link">ВИЛЛЫ ОТ ЗАСТРОЙЩИКОВ</a>
+                                <a id="nav_dev_villa" href="villa_dev.php" class="cs-li-link cs-drop-link">ВИЛЛЫ ОТ ЗАСТРОЙЩИКОВ</a>
                             </li>
                             <li class="cs-drop-li">
-                                <a href="" class="cs-li-link cs-drop-link">КВАРТИРЫ ОТ СОБСТВЕННИКОВ</a>
+                                <a id="nav_owner_room" href="" class="cs-li-link cs-drop-link">КВАРТИРЫ ОТ СОБСТВЕННИКОВ</a>
                             </li>
                             <li class="cs-drop-li">
-                                <a href="" class="cs-li-link cs-drop-link">ВИЛЛЫ ОТ СОБСТВЕННИКОВ</a>
+                                <a id="nav_owner_villa" href="" class="cs-li-link cs-drop-link">ВИЛЛЫ ОТ СОБСТВЕННИКОВ</a>
                             </li>
                             <li class="cs-drop-li">
-                                <a href="" class="cs-li-link cs-drop-link">ЗЕМЕЛЬНЫЕ УЧАСТКИ</a>
+                                <a id="nav_land" href="" class="cs-li-link cs-drop-link">ЗЕМЕЛЬНЫЕ УЧАСТКИ</a>
                             </li>
                         </ul>
                     </li>
                     <li class="cs-li cs-dropdown" tabindex="0">
-                        <span class="cs-li-link">
+                        <span id="nav_rent" class="cs-li-link">
                             АРЕНДА
                             <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
                         </span>
                         <ul class="cs-drop-ul">
                             <li class="cs-drop-li">
-                                <a href="" class="cs-li-link cs-drop-link">КВАРТИРЫ ОТ СОБСТВЕННИКОВ</a>
+                                <a id="nav_rent_room" href="" class="cs-li-link cs-drop-link">КВАРТИРЫ ОТ СОБСТВЕННИКОВ</a>
                             </li>
                             <li class="cs-drop-li">
-                                <a href="" class="cs-li-link cs-drop-link">ВИЛЛЫ ОТ СОБСТВЕННИКОВ</a>
+                                <a id="nav_rent_villa" href="" class="cs-li-link cs-drop-link">ВИЛЛЫ ОТ СОБСТВЕННИКОВ</a>
                             </li>
                         </ul>
                     </li>
                     <li class="cs-li">
-                        <a href="about_us.php" class="cs-li-link">
+                        <a id="nav_about" href="about_us.php" class="cs-li-link">
                             О НАС
                         </a>
                     </li>
                     <li class="cs-li">
-                        <a href="ourteam.php" class="cs-li-link">
+                        <a id="nav_empl" href="ourteam.php" class="cs-li-link">
                             СОТРУДНИКИ
                         </a>
                     </li>
                     <li class="cs-li">
-                        <a href="contacts.php" class="cs-li-link">
+                        <a id="nav_contacts" href="contacts.php" class="cs-li-link">
                             КОНТАКТЫ
                         </a>
                     </li>
