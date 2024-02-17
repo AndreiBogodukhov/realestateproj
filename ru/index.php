@@ -68,9 +68,9 @@
         <section id="gallery-49">
             <div class="cs-container">
                 <div class="cs-content">
-                    <span id="gallery_category" class="cs-topper">Категории</span>
-                    <h2 id="gallery_h2" class="cs-title">Купить или снять недвижимость</h2>
-                    <p class="cs-text">
+                    <span id="gallery_category_1" class="cs-topper">Категории</span>
+                    <h2 id="gallery_h2_1" class="cs-title">Купить недвижимость</h2>
+                    <p id="gallery_description_1" class="cs-text">
                         На Пхукете можно подобрать квартиры и виллы на любой вкус
                     </p>
                 </div>
@@ -84,8 +84,8 @@
                         </picture>
                         <!-- Hover Box -->
                         <div class="cs-hover-box">
-                            <h3 class="cs-h3">Квартиры от застройщиков</h3>
-                            <a class="cs-link" aria-label="read more about this project" href="">
+                            <h3 id="dev_room" class="cs-h3">Квартиры от застройщиков</h3>
+                            <a id="goto_1" class="cs-link" aria-label="read more about this project" href="">
                                 Перейти
                             </a>
                         </div>
@@ -99,8 +99,8 @@
                         </picture>
                         <!-- Hover Box -->
                         <div class="cs-hover-box">
-                            <h3 class="cs-h3">Виллы от застройщиков</h3>
-                            <a class="cs-link" aria-label="read more about this project" href="">
+                            <h3 id="dev_villa" class="cs-h3">Виллы от застройщиков</h3>
+                            <a id="goto_2" class="cs-link" aria-label="read more about this project" href="">
                                 Перейти
                             </a>
                         </div>
@@ -114,27 +114,13 @@
                         </picture>
                         <!-- Hover Box -->
                         <div class="cs-hover-box">
-                            <h3 class="cs-h3">Квартиры от собственников</h3>
-                            <a class="cs-link" aria-label="read more about this project" href="">
+                            <h3 id="owner_room" class="cs-h3">Квартиры от собственников</h3>
+                            <a id="goto_3" class="cs-link" aria-label="read more about this project" href="">
                                 Перейти
                             </a>
                         </div>
                     </li>
-                    <!-- Image 4 -->
-                    <!-- <li class="cs-item cs-item-4">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction4-m.jpg">
-                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction4.jpg">
-                            <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction4.jpg" alt="modern home" width="255" height="255">
-                        </picture>
-                        
-                        <div class="cs-hover-box">
-                            <h3 class="cs-h3">Виллы от собственников</h3>
-                            <a class="cs-link" aria-label="read more about this project" href="">
-                                Перейти
-                            </a>
-                        </div>
-                    </li> -->
+                    
                     <!-- Image 5 -->
                     <li class="cs-item cs-item-5">
                         <picture class="cs-picture">
@@ -144,8 +130,8 @@
                         </picture>
                         <!-- Hover Box -->
                         <div class="cs-hover-box">
-                            <h3 class="cs-h3">Земельные участки</h3>
-                            <a class="cs-link" aria-label="read more about this project" href="">
+                            <h3 id="owner_villa" class="cs-h3">Виллы от собственников</h3>
+                            <a id="goto_4" class="cs-link" aria-label="read more about this project" href="">
                                 Перейти
                             </a>
                         </div>
@@ -159,8 +145,8 @@
                         </picture>
                         
                         <div class="cs-hover-box">
-                            <h3 class="cs-h3">Аренда квартир и вилл</h3>
-                            <a class="cs-link" aria-label="read more about this project" href="">
+                            <h3 id="land" class="cs-h3">Земельные участки</h3>
+                            <a id="goto_5" class="cs-link" aria-label="read more about this project" href="">
                                 Перейти
                             </a>
                         </div>
@@ -172,28 +158,14 @@
         <section id="gallery-50">
             <div class="cs-container">
                 <div class="cs-content">
-                    <span id="gallery_category" class="cs-topper">Категории</span>
-                    <h2 id="gallery_h2" class="cs-title">Купить или снять недвижимость</h2>
-                    <p class="cs-text">
-                        На Пхукете можно подобрать квартиры и виллы на любой вкус
+                    <span id="gallery_category_2" class="cs-topper">Категории</span>
+                    <h2 id="gallery_h2_2" class="cs-title">Арендовать недвижимость</h2>
+                    <p id="gallery_description_2" class="cs-text">
+                        Аренда квартир и вилл на Пхукете доступна здесь
                     </p>
                 </div>
                 <ul class="cs-image-group">
-                    <!-- Image 1 -->
-                    <!-- <li class="cs-item cs-item-1">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction1-m.jpg">
-                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction1.jpg">
-                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction1.jpg" alt="man grinding steel" width="529" height="256">
-                        </picture>
-                        
-                        <div class="cs-hover-box">
-                            <h3 class="cs-h3">Квартиры от застройщиков</h3>
-                            <a class="cs-link" aria-label="read more about this project" href="">
-                                Перейти
-                            </a>
-                        </div>
-                    </li> -->
+                    
                     <!-- Image 2 -->
                     <li class="cs-item cs-item-2">
                         <picture class="cs-picture">
@@ -203,8 +175,8 @@
                         </picture>
                         <!-- Hover Box -->
                         <div class="cs-hover-box">
-                            <h3 class="cs-h3">Виллы от застройщиков</h3>
-                            <a class="cs-link" aria-label="read more about this project" href="">
+                            <h3 id="rent_villa" class="cs-h3">Виллы от собственников</h3>
+                            <a id="goto_6" class="cs-link" aria-label="read more about this project" href="">
                                 Перейти
                             </a>
                         </div>
@@ -217,8 +189,8 @@
                         </picture>
                         <!-- Hover Box -->
                         <div class="cs-hover-box">
-                            <h3 class="cs-h3">Виллы от застройщиков</h3>
-                            <a class="cs-link" aria-label="read more about this project" href="">
+                            <h3 id="rent_room" class="cs-h3">Квартиры от застройщиков</h3>
+                            <a id="goto_7" class="cs-link" aria-label="read more about this project" href="">
                                 Перейти
                             </a>
                         </div>
@@ -233,8 +205,8 @@
         <section id="faq-1261">
             <div class="cs-container">
                 <div class="cs-content">
-                    <span class="cs-topper">Вопросы</span>
-                    <h2 class="cs-title">Часто задаваемые вопросы</h2>
+                    <span id="faq_q" class="cs-topper">Вопросы</span>
+                    <h2 id="faq_faq" class="cs-title">Часто задаваемые вопросы</h2>
                 </div>
                 <!--We made two lists so when you open an FAQ item, they behave properly and separate from each other, wrapped in a wrapper div for better flexboxxing -->
                 <div class="cs-wrapper">
@@ -242,51 +214,51 @@
                         <!-- Active class added as default -->
                         <li class="cs-faq-item active">
                             <button class="cs-button">
-                                <span class="cs-button-text">
+                                <span id="q1" class="cs-button-text">
                                     What are your prices for brake replacement?
                                 </span>
                             </button>
-                            <p class="cs-item-p">
+                            <p id="q1_text" class="cs-item-p">
                                 Some cleaning plans require a minimum commitment term. Cancelling your plan before the minimum term is complete will result in a $99 fee. If you want to learn more information about how to cancel, please inbox us.
                             </p>
                         </li>
                         <li class="cs-faq-item">
                             <button class="cs-button">
-                                <span class="cs-button-text">
+                                <span id="q2" class="cs-button-text">
                                     What is your plan cancellation policy?
                                 </span>
                             </button>
-                            <p class="cs-item-p">
+                            <p id="q2_text" class="cs-item-p">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
                             </p>
                         </li>
                         <li class="cs-faq-item">
                             <button class="cs-button">
-                                <span class="cs-button-text">
+                                <span id="q3" class="cs-button-text">
                                     What are your prices for brake replacement?
                                 </span>
                             </button>
-                            <p class="cs-item-p">
+                            <p id="q3_text" class="cs-item-p">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
                             </p>
                         </li>
                         <li class="cs-faq-item">
                             <button class="cs-button">
-                                <span class="cs-button-text">
+                                <span id="q4" class="cs-button-text">
                                     What are your prices for brake replacement?
                                 </span>
                             </button>
-                            <p class="cs-item-p">
+                            <p id="q4_text" class="cs-item-p">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
                             </p>
                         </li>
                         <li class="cs-faq-item">
                             <button class="cs-button">
-                                <span class="cs-button-text">
+                                <span id="q5" class="cs-button-text">
                                     What are your prices for brake replacement?
                                 </span>
                             </button>
-                            <p class="cs-item-p">
+                            <p id="q5_text" class="cs-item-p">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
                             </p>
                         </li>
@@ -295,54 +267,15 @@
                         <!-- Active class added as default -->
                         <li class="cs-faq-item active">
                             <button class="cs-button">
-                                <span class="cs-button-text">
+                                <span id="q6" class="cs-button-text">
                                     What are your prices for brake replacement?
                                 </span>
                             </button>
-                            <p class="cs-item-p">
+                            <p id="q6_text" class="cs-item-p">
                                 Some cleaning plans require a minimum commitment term. Cancelling your plan before the minimum term is complete will result in a $99 fee. If you want to learn more information about how to cancel, please inbox us.
                             </p>
                         </li>
-                        <li class="cs-faq-item">
-                            <button class="cs-button">
-                                <span class="cs-button-text">
-                                    What is your plan cancellation policy?
-                                </span>
-                            </button>
-                            <p class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
-                            </p>
-                        </li>
-                        <li class="cs-faq-item">
-                            <button class="cs-button">
-                                <span class="cs-button-text">
-                                    What are your prices for brake replacement?
-                                </span>
-                            </button>
-                            <p class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
-                            </p>
-                        </li>
-                        <li class="cs-faq-item">
-                            <button class="cs-button">
-                                <span class="cs-button-text">
-                                    What are your prices for brake replacement?
-                                </span>
-                            </button>
-                            <p class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
-                            </p>
-                        </li>
-                        <li class="cs-faq-item">
-                            <button class="cs-button">
-                                <span class="cs-button-text">
-                                    What are your prices for brake replacement?
-                                </span>
-                            </button>
-                            <p class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
-                            </p>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
