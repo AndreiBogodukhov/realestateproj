@@ -61,7 +61,15 @@ const translations = {
         'nav_rent_villa': 'ВИЛЛЫ ОТ СОБСТВЕННИКОВ',
         'nav_about': 'О НАС',
         'nav_empl': 'СОТРУДНИКИ',
-        'nav_contacts': 'КОНТАКТЫ'
+        'nav_contacts': 'КОНТАКТЫ',
+        'why_choose': 'Почему Вы можете доверять нам?',
+        'why_desc': 'С нами вы можете быть уверены в качественном обслуживании и индивидуальном подходе к вашим потребностям в недвижимости',
+        'why_1': 'Качество услуг',
+        'why_1_text': 'Наша компания отличается надежностью и ответственным подходом к каждому клиенту. Мы стремимся к профессионализму и постоянно совершенствуем качество предоставляемых услуг',
+        'why_2': 'Опытные сотрудники',
+        'why_2_text': 'В нашем агентстве работают только квалифицированные специалисты, имеющие богатый опыт в сфере недвижимости. Мы всегда готовы выслушать ваши потребности и предоставить индивидуальный подход к каждому клиенту',
+        'why_3': 'Полная прозрачность',
+        'why_3_text': 'Наше агентство стремится к полной прозрачности во всех сделках. Мы честно информируем наших клиентов о всех аспектах сделки и всегда придерживаемся высоких стандартов этики и профессионализма. Ваше доверие - наш приоритет!'
     },
     'EN': {
         'language_cap': 'EN',
@@ -102,7 +110,16 @@ const translations = {
         'nav_rent_villa': 'RESALE VILLAS',
         'nav_about': 'ABOUT US',
         'nav_empl': 'OUR TEAM',
-        'nav_contacts': 'CONTACTS'
+        'nav_contacts': 'CONTACTS',
+        'why_choose': 'Why choose us?',
+        'why_desc': 'With us, you can be confident in the quality service and individual approach to your real estate needs',
+        'why_1': 'Quality of services',
+        'why_1_text': 'Our company stands out for its reliability and responsible approach to each client. We strive for professionalism and constantly improve the quality of the services provided',
+        'why_2': 'Experienced staff',
+        'why_2_text': 'Only qualified specialists with extensive experience in the real estate industry work in our agency. We are always ready to listen to your needs and provide an individual approach to each client',
+        'why_3': 'Full transparency',
+        'why_3_text': 'Our agency aims for complete transparency in all transactions. We honestly inform our clients about all aspects of the transaction and always adhere to high standards of ethics and professionalism. Your trust is our priority!'
+    
     }
 };
 

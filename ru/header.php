@@ -72,7 +72,7 @@
                     <li class="cs-li cs-dropdown left-buttons" tabindex="0">
                         <span id="language_cap" class="cs-li-link">
                             RU
-                            <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                            <!-- <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true"> -->
                         </span>
                         <ul class="cs-drop-ul">
                             <li onclick="toggleLanguage('RU')" class="cs-drop-li">
@@ -86,7 +86,7 @@
                     <li class="cs-li cs-dropdown" tabindex="0">
                         <span class="cs-li-link">
                             ฿
-                            <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                            <!-- <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true"> -->
                         </span>
                         <ul class="cs-drop-ul">
                             <li class="cs-drop-li">
