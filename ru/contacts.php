@@ -87,7 +87,7 @@
             </label>
             <label class="cs-label">
                 Telephone
-                <input class="cs-input" required type="text" id="phone-490" name="phone" placeholder="+7 (904) 987-6543">
+                <input class="cs-input" required type="text" id="phone-490" name="phone">
             </label>
             <!-- <label class="cs-label">
                 Как Вы узнали о нас

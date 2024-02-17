@@ -26,7 +26,7 @@ const translations = {
         'language_cap': 'RU',
         'agency': 'Агенство недвижимости',
         'h1_title': 'Покупка и аренда недвижимости на Пхукете',
-        'h1_about': 'Мы агенство, которое поможет Вам подобрать кондо, квартиру ил виллу на Пхукете',
+        'h1_about': 'Наше агентство предлагает персонализированный подбор роскошных кондоминиумов, уютных квартир и эксклюзивных вилл на живописном острове Пхукет. Доверьте нам ваш поиск и обеспечьте себя неповторимым опытом приобретения или аренды недвижимости в этом удивительном уголке Таиланда',
         'h1_button': 'Узнать больше о нас',
         'gallery_category_1': 'Категории',
         'gallery_h2_1': 'Купить недвижимость',
@@ -88,13 +88,29 @@ const translations = {
         'con_name': 'Имя',
         'con_telegram': 'Телеграм',
         'con_agreement': 'Нажимая кнопку "Отправить" я даю согласие на обработку персональных данных',
-        'con_submit': 'Отправить'
+        'con_submit': 'Отправить',
+        'q1': 'За сколько можно купить квартиру на Пхукете у застройщика?',
+        'q1_text': 'Квартиры от застройщика на Пхукете доступны в разных ценовых категориях, начиная от определенной суммы в зависимости от местоположения и характеристик объекта.',
+        'q2': 'Как оформить недвижимость при покупке?',
+        'q2_text': 'Для оформления недвижимости при покупке на Пхукете существуют различные виды собственности, включая варианты для иностранных граждан, такие как право собственности на землю через юридическое лицо или аренда на длительный срок.',
+        'q3': 'Сколько стоит самая дешевая вилла на Пхукете?',
+        'q3_text': 'Самые доступные виллы на Пхукете имеют разнообразные цены, начиная от 150 тыс. долларов, в зависимости от района, состояния и размеров объекта.',
+        'q4': 'Можно ли купить участок и построить дом самостоятельно?',
+        'q4_text': 'Приобретение участка с последующим строительством дома на Пхукете разрешено, однако потребуются соответствующие разрешения и процедуры, а чтобы узнать какие - обращайтесь к нам!',
+        'q6': 'Могу ли я как иностранец купить недвижимость в Таиланде?',
+        'q6_text': 'Для иностранных граждан существуют определенные правила и ограничения при покупке недвижимости в Таиланде, включая возможность владения объектами в рамках определенных законов и требований.',
+        'q7': 'Сколько стоит содержание виллы, квартиры в год?',
+        'q7_text': 'Стоимость содержания виллы или квартиры на Пхукете может варьироваться в зависимости от услуг и местоположения объекта, обычно она включает в себя расходы на обслуживание, управление.',
+        'q8': 'Выгодно ли вкладывать деньги в тайскую недвижимость?',
+        'q8_text': 'Вложения в тайскую недвижимость могут быть выгодными и приносить до 9% годовых в зависимости от района и потенциала для аренды или перепродажи.',
+        'q9': 'Что такое покупка недвижимости на тайскую компанию?',
+        'q9_text': 'Покупка недвижимости через тайскую компанию может предоставить некоторые юридические и финансовые преимущества: более гибкие условия владения и управления недвижимостью.'
     },
     'EN': {
         'language_cap': 'EN',
         'agency': 'Real estate agency',
         'h1_title': 'Aquire and Rent real estate in Phuket',
-        'h1_about': 'We are an agency that will help you find a condo, apartment or villa',
+        'h1_about': 'Our agency offers personalized selection of luxurious condominiums, cozy apartments, and exclusive villas on the picturesque island of Phuket. Entrust us with your search and indulge in a unique experience of purchasing or renting real estate in this amazing corner of Thailand',
         'h1_button': 'See more about us',
         'gallery_category_1': 'Categories',
         'gallery_h2_1': 'Aquire Real Estate',
@@ -156,7 +172,23 @@ const translations = {
         'con_name': 'Name',
         'con_telegram': 'Telegram',
         'con_agreement': 'By clicking the "Submit" button, I consent to the processing of personal data',
-        'con_submit': 'Submit'
+        'con_submit': 'Submit',
+        'q1': 'How much does it cost to buy an apartment in Phuket from a developer?',
+        'q1_text': 'Apartments from developers in Phuket are available in various price categories, starting from a certain amount depending on the location and characteristics of the property.',
+        'q2': 'How can I register property when buying?',
+        'q2_text': 'There are various types of ownership for property registration when buying in Phuket, including options for foreign citizens, such as ownership rights to land through a legal entity or long-term lease.',
+        'q3': 'What is the cost of the cheapest villa in Phuket?',
+        'q3_text': 'The most affordable villas in Phuket have diverse prices, starting from $150,000, depending on the area, condition, and size of the property.',
+        'q4': 'Can I buy land and build a house with myself?',
+        'q4_text': 'Buying land with subsequent construction of a house in Phuket is allowed, however, appropriate permits and procedures are required, contact us to know more!',
+        'q6': 'Can I buy/aquire property in Thailand as a foreigner?',
+        'q6_text': 'There are specific rules and restrictions when buying property in Thailand as a foreign citizen, including the possibility of owning properties within certain laws and requirements.',
+        'q7': 'How much does it cost to maintain a villa or apartment annually?',
+        'q7_text': 'The cost of maintaining a villa or apartment in Phuket can vary depending on the services and location of the property, usually including maintenance and management expenses.',
+        'q8': 'Is it profitable to invest money in Thai real estate?',
+        'q8_text': 'Investments in Thai real estate can be profitable and bring up to 9% annual return depending on the area and potential for rental or resale.',
+        'q9': 'What is purchasing property through a Thai company?',
+        'q9_text': 'Purchasing property through a Thai company can provide some legal and financial advantages: more flexible ownership and property management terms.'
     
     }
 };
@@ -164,6 +196,7 @@ const translations = {
 
 // Функция для переключения языка
 function toggleLanguage(language) {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     let language_cap = document.getElementById("language_cap");
     let agency = document.getElementById("agency");
     let h1_title = document.getElementById("h1_title");
@@ -180,6 +213,8 @@ function toggleLanguage(language) {
 
     // Сохраняем выбранный язык в локальном хранилище
     localStorage.setItem('preferredLanguage', language);
+    // Восстанавливаем позицию прокрутки после изменения контента
+    window.scrollTo(0, scrollTop);
 }
 
 // Проверяем, есть ли предпочтительный язык в локальном хранилище при загрузке страницы

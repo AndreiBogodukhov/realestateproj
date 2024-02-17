@@ -47,7 +47,7 @@
                     <span id="agency" class="cs-topper">Агенство недвижимости</span>
                     <h1 id="h1_title" class="cs-title">Покупка и аренда недвижимости на Пхукете</h1>
                     <p id="h1_about" class="cs-text">
-                        Мы агенство, которое поможет Вам подобрать кондо, квартиру или виллу
+                    Наше агентство предлагает персонализированный подбор роскошных кондоминиумов, уютных квартир и эксклюзивных вилл на живописном острове Пхукет. Доверьте нам ваш поиск и обеспечьте себя неповторимым опытом приобретения или аренды недвижимости в этом удивительном уголке Таиланда
                     </p>
                     <a id="h1_button" href="about_us.php" class="cs-button-solid">Узнать больше о нас</a>
                     <!-- <a href="" class="cs-button-transparent">
@@ -93,9 +93,9 @@
                     <!-- Image 2 -->
                     <li class="cs-item cs-item-2">
                         <picture class="cs-picture">
-                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2-m.jpg">
-                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2.jpg">
-                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2.jpg" alt="wood worker" width="255" height="255">
+                            <source media="(max-width: 600px)" srcset="img/dev_villa.jpg">
+                            <source media="(min-width: 601px)" srcset="img/dev_villa.jpg">
+                            <img loading="lazy" decoding="async" src="img/dev_villa.jpg" alt="off-plan villa" width="255" height="255">
                         </picture>
                         <!-- Hover Box -->
                         <div class="cs-hover-box">
@@ -256,107 +256,88 @@
                         <li class="cs-faq-item active">
                             <button class="cs-button">
                                 <span id="q1" class="cs-button-text">
-                                    What are your prices for brake replacement?
+                                За сколько можно купить квартиру на Пхукете у застройщика?
                                 </span>
                             </button>
                             <p id="q1_text" class="cs-item-p">
-                                Some cleaning plans require a minimum commitment term. Cancelling your plan before the minimum term is complete will result in a $99 fee. If you want to learn more information about how to cancel, please inbox us.
+                            Квартиры от застройщика на Пхукете доступны в разных ценовых категориях, начиная от определенной суммы в зависимости от местоположения и характеристик объекта.
                             </p>
                         </li>
                         <li class="cs-faq-item">
                             <button class="cs-button">
                                 <span id="q2" class="cs-button-text">
-                                    What is your plan cancellation policy?
+                                Как оформить недвижимость при покупке?
                                 </span>
                             </button>
                             <p id="q2_text" class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                            Для оформления недвижимости при покупке на Пхукете существуют различные виды собственности, включая варианты для иностранных граждан, такие как право собственности на землю через юридическое лицо или аренда на длительный срок.
                             </p>
                         </li>
                         <li class="cs-faq-item">
                             <button class="cs-button">
                                 <span id="q3" class="cs-button-text">
-                                    What are your prices for brake replacement?
+                                Сколько стоит самая дешевая вилла на Пхукете? 
                                 </span>
                             </button>
                             <p id="q3_text" class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                            Самые доступные виллы на Пхукете имеют разнообразные цены, начиная от 150 тыс. долларов, в зависимости от района, состояния и размеров объекта.
                             </p>
                         </li>
                         <li class="cs-faq-item">
                             <button class="cs-button">
                                 <span id="q4" class="cs-button-text">
-                                    What are your prices for brake replacement?
+                                Можно ли купить участок и построить дом самостоятельно? 
                                 </span>
                             </button>
                             <p id="q4_text" class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                            Приобретение участка с последующим строительством дома на Пхукете разрешено, однако потребуются соответствующие разрешения и процедуры, а чтобы узнать какие - обращайтесь к нам!
                             </p>
                         </li>
-                        <li class="cs-faq-item">
-                            <button class="cs-button">
-                                <span id="q5" class="cs-button-text">
-                                    What are your prices for brake replacement?
-                                </span>
-                            </button>
-                            <p id="q5_text" class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
-                            </p>
-                        </li>
+                        
                     </ul>
                     <ul class="cs-faq-group">
                         <!-- Active class added as default -->
                         <li class="cs-faq-item active">
                             <button class="cs-button">
                                 <span id="q6" class="cs-button-text">
-                                    What are your prices for brake replacement?
+                                Могу ли я как иностранец купить недвижимость в Таиланде? 
                                 </span>
                             </button>
                             <p id="q6_text" class="cs-item-p">
-                                Some cleaning plans require a minimum commitment term. Cancelling your plan before the minimum term is complete will result in a $99 fee. If you want to learn more information about how to cancel, please inbox us.
+                            Для иностранных граждан существуют определенные правила и ограничения при покупке недвижимости в Таиланде, включая возможность владения объектами в рамках определенных законов и требований.
                             </p>
                         </li>
                         <li class="cs-faq-item">
                             <button class="cs-button">
                                 <span id="q7" class="cs-button-text">
-                                    What are your prices for brake replacement?
+                                Сколько стоит содержание виллы, квартиры в год? 
                                 </span>
                             </button>
                             <p id="q7_text" class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                            Стоимость содержания виллы или квартиры на Пхукете может варьироваться в зависимости от услуг и местоположения объекта, обычно она включает в себя расходы на обслуживание, управление
                             </p>
                         </li>
                         <li class="cs-faq-item">
                             <button class="cs-button">
                                 <span id="q8" class="cs-button-text">
-                                    What are your prices for brake replacement?
+                                Выгодно ли вкладывать деньги в тайскую недвижимость? 
                                 </span>
                             </button>
                             <p id="q8_text" class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                            Вложения в тайскую недвижимость могут быть выгодными и приносить до 9% годовых в зависимости от района и потенциала для аренды или перепродажи.
                             </p>
                         </li>
                         <li class="cs-faq-item">
                             <button class="cs-button">
                                 <span id="q9" class="cs-button-text">
-                                    What are your prices for brake replacement?
+                                Что такое покупка недвижимости на тайскую компанию?
                                 </span>
                             </button>
                             <p id="q9_text" class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
+                            Покупка недвижимости через тайскую компанию может предоставить некоторые юридические и финансовые преимущества: более гибкие условия владения и управления недвижимостью.
                             </p>
                         </li>
-                        <li class="cs-faq-item">
-                            <button class="cs-button">
-                                <span id="q10" class="cs-button-text">
-                                    What are your prices for brake replacement?
-                                </span>
-                            </button>
-                            <p id="q10_text" class="cs-item-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam.
-                            </p>
-                        </li>
-                    </ul>
+                        
                 </div>
             </div>
             <!--SVG Waves-->
