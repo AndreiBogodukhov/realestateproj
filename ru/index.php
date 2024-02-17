@@ -202,6 +202,47 @@
             </div>
         </section>
 
+        <!-- ============================================ -->
+        <!--                 Why Choose                   -->
+        <!-- ============================================ -->
+
+        <section id="why-choose-289">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <div class="cs-flex">
+                        <span class="cs-topper"></span>
+                        <h2 class="cs-title">Почему Вы можете доверять нам?</h2>
+                    </div>
+                    <p class="cs-text">
+                    С нами вы можете быть уверены в качественном обслуживании и индивидуальном подходе к вашим потребностям в недвижимости
+                    </p>
+                </div>
+                <ul class="cs-card-group">
+                    <li class="cs-item">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/award.svg" alt="icon" width="48" height="48">
+                        <h3 class="cs-h3">Качество услуг</h3>
+                        <p class="cs-item-text">
+                        Наша компания отличается надежностью и ответственным подходом к каждому клиенту. Мы стремимся к профессионализму и постоянно совершенствуем качество предоставляемых услуг
+                        </p>
+                    </li>
+                    <li class="cs-item">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/sheild-black.svg" alt="icon" width="40" height="48">
+                        <h3 class="cs-h3">Опытные сотрудники</h3>
+                        <p class="cs-item-text">
+                        В нашем агентстве работают только квалифицированные специалисты, имеющие богатый опыт в сфере недвижимости. Мы всегда готовы выслушать ваши потребности и предоставить индивидуальный подход к каждому клиенту
+                        </p>
+                    </li>
+                    <li class="cs-item">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/call.svg" alt="icon" width="48" height="48">
+                        <h3 class="cs-h3">Полная прозрачность</h3>
+                        <p class="cs-item-text">
+                        Наше агентство стремится к полной прозрачности во всех сделках. Мы честно информируем наших клиентов о всех аспектах сделки и всегда придерживаемся высоких стандартов этики и профессионализма. Ваше доверие - наш приоритет!
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
         <section id="faq-1261">
             <div class="cs-container">
                 <div class="cs-content">
