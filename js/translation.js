@@ -69,7 +69,15 @@ const translations = {
         'why_2': 'Опытные сотрудники',
         'why_2_text': 'В нашем агентстве работают только квалифицированные специалисты, имеющие богатый опыт в сфере недвижимости. Мы всегда готовы выслушать ваши потребности и предоставить индивидуальный подход к каждому клиенту',
         'why_3': 'Полная прозрачность',
-        'why_3_text': 'Наше агентство стремится к полной прозрачности во всех сделках. Мы честно информируем наших клиентов о всех аспектах сделки и всегда придерживаемся высоких стандартов этики и профессионализма. Ваше доверие - наш приоритет!'
+        'why_3_text': 'Наше агентство стремится к полной прозрачности во всех сделках. Мы честно информируем наших клиентов о всех аспектах сделки и всегда придерживаемся высоких стандартов этики и профессионализма. Ваше доверие - наш приоритет!',
+        'f_home': 'Домашняя',
+        'f_sitemap': 'Карта сайта',
+        'f_sell': 'Продажа недвижимости',
+        'f_rent': 'Аренда',
+        'f_empl': 'Сотрудники',
+        'f_contacts': 'Контакты',
+        'f_our_contacts': 'Контакты',
+        'f_text': 'Доверьте нам свои потребности в недвижимости, и мы обеспечим вас профессиональным сервисом и индивидуальным подходом'
     },
     'EN': {
         'language_cap': 'EN',
@@ -118,7 +126,15 @@ const translations = {
         'why_2': 'Experienced staff',
         'why_2_text': 'Only qualified specialists with extensive experience in the real estate industry work in our agency. We are always ready to listen to your needs and provide an individual approach to each client',
         'why_3': 'Full transparency',
-        'why_3_text': 'Our agency aims for complete transparency in all transactions. We honestly inform our clients about all aspects of the transaction and always adhere to high standards of ethics and professionalism. Your trust is our priority!'
+        'why_3_text': 'Our agency aims for complete transparency in all transactions. We honestly inform our clients about all aspects of the transaction and always adhere to high standards of ethics and professionalism. Your trust is our priority!',
+        'f_home': 'Home page',
+        'f_sitemap': 'Sitemap',
+        'f_sell': 'Aquire Real Estate',
+        'f_rent': 'Rent Real Estate',
+        'f_empl': 'Our Team',
+        'f_contacts': 'Contacts',
+        'f_our_contacts': 'Contacts',
+        'f_text': 'Trust us with your real estate needs, and we will provide you with professional service and individual approach'
     
     }
 };

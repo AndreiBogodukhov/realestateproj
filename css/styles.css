@@ -772,11 +772,13 @@ body {
   #cs-footer-269 .cs-nav {
       padding: 0;
       margin: 0;
+      color: var(--bodyTextColorWhite);
   }
   #cs-footer-269 .cs-nav-li {
       list-style: none;
       line-height: 1.5em;
       margin-bottom: 0.5rem;
+      color: var(--bodyTextColorWhite);
   }
   #cs-footer-269 .cs-nav-li:last-of-type {
       margin-bottom: 0;

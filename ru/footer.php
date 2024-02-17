@@ -5,34 +5,34 @@
             <!-- <a aria-label="go back to home" class="cs-logo" href="">
                 <img class="cs-logo-img light" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Footer/logo-light.svg" alt="logo" width="240" height="32">
             </a> -->
-            <p class="cs-text">
+            <p id="f_text" class="cs-text">
             Доверьте нам свои потребности в недвижимости, и мы обеспечим вас профессиональным сервисом и индивидуальным подходом
             </p>
         </div>
         <!-- Links -->
         <ul class="cs-nav">
-            <li class="cs-nav-li">
+            <li id="f_sitemap" class="cs-nav-li">
                 <span class="cs-header">Карта сайта</span>
             </li>
-            <li class="cs-nav-li">
+            <li id="f_home" class="cs-nav-li">
                 <a class="cs-nav-link" href="">Домашняя</a>
             </li>
-            <li class="cs-nav-li">
+            <li id="f_sell" class="cs-nav-li">
                 <a class="cs-nav-link" href="">Продажа недвижимости</a>
             </li>
-            <li class="cs-nav-li">
+            <li id="f_rent" class="cs-nav-li">
                 <a class="cs-nav-link" href="">Аренда</a>
             </li>
-            <li class="cs-nav-li">
+            <li id="f_empl" class="cs-nav-li">
                 <a class="cs-nav-link" href="signin.php">Сотрудники</a>
             </li>
-            <li class="cs-nav-li">
+            <li id="f_contacts" class="cs-nav-li">
                 <a class="cs-nav-link" href="registration.php">Контакты</a>
             </li>
         </ul>
         <!-- Contact Info -->
         <ul class="cs-contact">
-            <li class="cs-nav-li">
+            <li id="f_our_contacts" class="cs-nav-li">
                 <span class="cs-header">Контакты</span>
             </li>
             <li class="cs-contact-li">
