@@ -80,7 +80,15 @@ const translations = {
         'f_text': 'Доверьте нам свои потребности в недвижимости, и мы обеспечим вас профессиональным сервисом и индивидуальным подходом',
         'our_team_empl': 'Сотрудники',
         'our_team_h2': 'Наша команда профессионалов',
-        'our_team_text': 'Наша команда состоит из высококвалифицированных специалистов с богатым опытом в сфере недвижимости. Мы предоставляем клиентам только лучшие решения и гарантируем профессиональный подход к каждому случаю. Вместе мы работаем на достижение ваших целей в области недвижимости'
+        'our_team_text': 'Наша команда состоит из высококвалифицированных специалистов с богатым опытом в сфере недвижимости. Мы предоставляем клиентам только лучшие решения и гарантируем профессиональный подход к каждому случаю. Вместе мы работаем на достижение ваших целей в области недвижимости',
+        'how_to_find': 'Как связаться с нами',
+        'cont_info': 'Контактная информация',
+        'con_adress': 'Адрес',
+        'con_tel': 'Телефон',
+        'con_name': 'Имя',
+        'con_telegram': 'Телеграм',
+        'con_agreement': 'Нажимая кнопку "Отправить" я даю согласие на обработку персональных данных',
+        'con_submit': 'Отправить'
     },
     'EN': {
         'language_cap': 'EN',
@@ -140,7 +148,15 @@ const translations = {
         'f_text': 'Trust us with your real estate needs, and we will provide you with professional service and individual approach',
         'our_team_empl': 'Our Team',
         'our_team_h2': 'Our Specialists',
-        'our_team_text': 'Our team consists of highly qualified professionals with extensive experience in the real estate industry. We provide clients with only the best solutions and guarantee a professional approach to each case. Together, we work towards achieving your real estate goals'
+        'our_team_text': 'Our team consists of highly qualified professionals with extensive experience in the real estate industry. We provide clients with only the best solutions and guarantee a professional approach to each case. Together, we work towards achieving your real estate goals',
+        'how_to_find': 'How to find us',
+        'cont_info': 'Contact Info',
+        'con_adress': 'Address',
+        'con_tel': 'Telephone',
+        'con_name': 'Name',
+        'con_telegram': 'Telegram',
+        'con_agreement': 'By clicking the "Submit" button, I consent to the processing of personal data',
+        'con_submit': 'Submit'
     
     }
 };

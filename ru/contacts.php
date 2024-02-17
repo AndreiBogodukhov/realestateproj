@@ -44,22 +44,22 @@
     <div class="cs-container">
         <!-- Contact Info -->
         <div class="cs-content">
-            <span class="cs-topper">Как связаться с нами</span>
-            <h2 class="cs-title">Контактная информация</h2>
+            <span id="how_to_find" class="cs-topper">Как связаться с нами</span>
+            <h2 id="cont_info" class="cs-title">Контактная информация</h2>
             <p class="cs-text">
-                Justo eget magna fermentum iaculis eu non diam phasellus vestibulum. Eu volutpat odio facilisis mauris sit amet massa. Sit amet est placerat in egestas
+                
             </p>
             
             <!--Address-->
-            <span class="cs-header">Адрес</span>
-            <a href="" class="cs-link">
+            <!-- <span id="con_adress" class="cs-header">Адрес</span> -->
+            <!-- <a href="" class="cs-link">
                 улица Банг Тао, <br>Пхукет, Таиланд 100000
-            </a>
+            </a> -->
             <!--Email-->
             <span class="cs-header">Email</span>
             <a href="mailtp:info@iabuyer.com" class="cs-link">info@iabuyer.com</a>
             <!--Phone-->
-            <span class="cs-header">Phone</span>
+            <span id="con_tel" class="cs-header">Телефон</span>
             <a href="tel:425-686-9566" class="cs-link">(425) 686-9566</a>
 
             <!--Social Buttons-->
@@ -78,32 +78,32 @@
         <!-- Form -->
         <form id="cs-form-490" name="Contact Form" method="post">
             <label class="cs-label">
-                Имя
-                <input class="cs-input" required type="text" id="name-490" name="name" placeholder="Павел Новиков">
+                Name
+                <input id="con_name" class="cs-input" required type="text" id="name-490" name="name">
             </label>
             <label class="cs-label">
-                Телаграм
-                <input class="cs-input" required type="text" id="email-490" name="telegram" placeholder="novikov_pavel">
+                Telegram
+                <input id="con_telegram" class="cs-input" required type="text" id="email-490" name="telegram">
             </label>
             <label class="cs-label">
-                Телефон
+                Telephone
                 <input class="cs-input" required type="text" id="phone-490" name="phone" placeholder="+7 (904) 987-6543">
             </label>
-            <label class="cs-label">
+            <!-- <label class="cs-label">
                 Как Вы узнали о нас
                 <input class="cs-input" type="text" id="find-490" name="find-us" placeholder="Соцсети, друзья, сайт...">
-            </label>
-            <label class="cs-label -label-message">
+            </label> -->
+            <!-- <label class="cs-label -label-message">
                 Ваше сообщение
-                <textarea class="cs-input" required name="Message" id="message-490" placeholder="Здравствуйте, я хочу узнать больше о..."></textarea>
+                <textarea class="cs-input" required name="Message" id="message-490" placeholder="Здравствуйте, я хочу узнать больше о..."></textarea> -->
             </label>
             <div class="consent-box">
             <label>
                 <input type="checkbox" id="consentCheckbox">
-                <span class="consent-text">Нажимая кнопку "Отправить" я даю согласие на обработку персональных данных</span>
+                <span id="con_agreement" class="consent-text">Нажимая кнопку "Отправить" я даю согласие на обработку персональных данных</span>
             </label>
             </div>
-            <button class="cs-button-solid" type="submit">Отправить</button>
+            <button id="con_submit" class="cs-button-solid" type="submit">Отправить</button>
         </form>
     </div>
     </section>

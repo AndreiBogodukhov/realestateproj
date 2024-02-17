@@ -2972,11 +2972,12 @@ body {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 20px;
+    /* color: #000; */
     /* max-width: 300px; */
   }
   #cs-contact-490 .consent-text {
     font-size: 14px;
-    color: #fff;
+    /* color: #000; */
   }
   #cs-contact-490 #cs-form-490 {
     margin: 0;

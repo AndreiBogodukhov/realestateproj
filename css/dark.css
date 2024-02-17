@@ -23,6 +23,9 @@
   body.dark-mode h6,
   body.dark-mode .cs-title,
   body.dark-mode .cs-text,
+  body.dark-mode .consent-text {
+    color: var(--bodyTextColorWhite);
+  }
   body.dark-mode .cs-li {
     color: var(--bodyTextColorWhite);
   }
