@@ -77,7 +77,10 @@ const translations = {
         'f_empl': 'Сотрудники',
         'f_contacts': 'Контакты',
         'f_our_contacts': 'Контакты',
-        'f_text': 'Доверьте нам свои потребности в недвижимости, и мы обеспечим вас профессиональным сервисом и индивидуальным подходом'
+        'f_text': 'Доверьте нам свои потребности в недвижимости, и мы обеспечим вас профессиональным сервисом и индивидуальным подходом',
+        'our_team_empl': 'Сотрудники',
+        'our_team_h2': 'Наша команда профессионалов',
+        'our_team_text': 'Наша команда состоит из высококвалифицированных специалистов с богатым опытом в сфере недвижимости. Мы предоставляем клиентам только лучшие решения и гарантируем профессиональный подход к каждому случаю. Вместе мы работаем на достижение ваших целей в области недвижимости'
     },
     'EN': {
         'language_cap': 'EN',
@@ -134,7 +137,10 @@ const translations = {
         'f_empl': 'Our Team',
         'f_contacts': 'Contacts',
         'f_our_contacts': 'Contacts',
-        'f_text': 'Trust us with your real estate needs, and we will provide you with professional service and individual approach'
+        'f_text': 'Trust us with your real estate needs, and we will provide you with professional service and individual approach',
+        'our_team_empl': 'Our Team',
+        'our_team_h2': 'Our Specialists',
+        'our_team_text': 'Our team consists of highly qualified professionals with extensive experience in the real estate industry. We provide clients with only the best solutions and guarantee a professional approach to each case. Together, we work towards achieving your real estate goals'
     
     }
 };

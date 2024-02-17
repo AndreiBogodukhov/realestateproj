@@ -43,10 +43,10 @@
     <section id="meet-494">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Сотрудники</span>
-            <h2 class="cs-title">Наша команда профессионалов</h2>
-            <p class="cs-text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid dicta hic ex voluptatem possimus molestiae labore exercitationem expedita ut! Libero corporis doloribus dignissimos tempora obcaecati distinctio excepturi vero adipisci.
+            <span id="our_team_empl" class="cs-topper">Сотрудники</span>
+            <h2 id="our_team_h2" class="cs-title">Наша команда профессионалов</h2>
+            <p id="our_team_text" class="cs-text">
+            Наша команда состоит из высококвалифицированных специалистов с богатым опытом в сфере недвижимости. Мы предоставляем клиентам только лучшие решения и гарантируем профессиональный подход к каждому случаю. Вместе мы работаем на достижение ваших целей в области недвижимости
             </p>
         </div>
         <ul class="cs-card-group">
