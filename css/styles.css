@@ -1436,6 +1436,267 @@ body {
 }
 
 /*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #gallery-50 {
+      padding: var(--sectionPadding);
+      position: relative;
+  }
+  #gallery-50 .cs-container {
+      width: 100%;
+      max-width: 80rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* 48px - 64px */
+      gap: clamp(3rem, 6vw, 4rem);
+  }
+  #gallery-50 .cs-content {
+      /* set text align to left if content needs to be left aligned */
+      text-align: center;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      /* centers content horizontally, set to flex-start to left align */
+      align-items: center;
+  }
+
+  #gallery-50 .cs-image-group {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      place-content: center;
+      grid-template-columns: repeat(12, 1fr);
+      /* 158px - 304px */
+      grid-template-rows: 1fr;
+      /* 8px - 20px */
+      gap: clamp(0.5rem, 1.5vw, 1.25rem);
+  }
+  #gallery-50 .cs-item {
+      list-style: none;
+      width: 100%;
+      margin: 0;
+      aspect-ratio: 1;
+      grid-column: span 6;
+      display: block;
+      position: relative;
+      /* prevents image from overflowing the container on hover */
+      overflow: hidden;
+      transition: border-radius 0.3s;
+  }
+  #gallery-50 .cs-item:hover {
+      border-radius: 9.375rem 9.375rem 0 0;
+  }
+  #gallery-50 .cs-item:hover .cs-picture img {
+      transform: scale(1.1);
+  }
+  #gallery-50 .cs-item:hover .cs-hover-box {
+      opacity: 1;
+      pointer-events: all;
+  }
+  #gallery-50 .cs-item:hover .cs-h3 {
+      opacity: 1;
+      /* Return to original position */
+      transform: translateY(0);
+  }
+  #gallery-50 .cs-item:hover .cs-link {
+      opacity: 1;
+      /* Return to original position */
+      transform: translateY(0);
+  }
+  #gallery-50 .cs-picture {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+  #gallery-50 .cs-picture img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      transition: transform 0.6s;
+  }
+  #gallery-50 .cs-item-1 {
+      grid-column: 1 / span 12;
+      grid-row: 1 / 2;
+      aspect-ratio: 2.07594937;
+  }
+  #gallery-50 .cs-item-5 {
+      grid-column: 7 / span 6;
+      grid-row: 3 / span 2;
+      aspect-ratio: initial;
+  }
+  #gallery-50 .cs-hover-box {
+      height: 100%;
+      width: 100%;
+      padding: 1em 0.625em;
+      opacity: 0;
+      position: absolute;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      /* Prevents padding from adding to the height & width */
+      box-sizing: border-box;
+      transition: opacity 0.3s;
+      /* prevent it from interacting with the mouse so we can add a hover
+          effect on the cs-item parent */
+      pointer-events: none;
+      position: relative;
+  }
+  #gallery-50 .cs-hover-box:before {
+      /* top right box */
+      content: "";
+      width: 100%;
+      height: 100%;
+      background: var(--primary);
+      opacity: 0.9;
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+  }
+  #gallery-50 .cs-h3 {
+      /* 14px - 20px */
+      font-size: clamp(0.875rem, 1.8vw, 1.25rem);
+      line-height: 1.2em;
+      text-align: center;
+      margin: 0;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      color: var(--headerColor);
+      opacity: 0;
+      display: block;
+      /* starting point is 10px down from its original point */
+      transform: translateY(0.625rem);
+      transition:
+          opacity 0.3s,
+          transform 0.5s;
+  }
+  #gallery-50 .cs-link {
+      font-size: 0.9375rem;
+      line-height: 2.875rem;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 0 1rem;
+      background-color: #1a1a1a;
+      color: #fff;
+      opacity: 0;
+      border-radius: 1.4375rem;
+      overflow: hidden;
+      /* starting point is 10px down from its original point */
+      transform: translateY(0.625rem);
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      transition:
+          opacity 0.5s,
+          transform 0.5s,
+          background-color 0.3s,
+          color 0.3s;
+  }
+  #gallery-50 .cs-link:hover {
+      background-color: #fff;
+      color: #1a1a1a;
+      cursor: pointer;
+  }
+  #gallery-50 .cs-link:hover:before {
+      width: 100%;
+  }
+  #gallery-50 .cs-link:before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 100%;
+      width: 0%;
+      border-radius: 1.4375rem;
+      background: #fff;
+      opacity: 1;
+      left: 0;
+      z-index: -1;
+      transition: width 0.3s;
+  }
+  #gallery-50 .cs-button-solid {
+      font-size: 1rem;
+      /* 46px - 56px */
+      line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+      text-decoration: none;
+      font-weight: 700;
+      text-align: center;
+      margin: 0;
+      color: #fff;
+      min-width: 9.375rem;
+      padding: 0 1.5rem;
+      background-color: var(--primary);
+      border-radius: 0.25rem;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      /* prevents padding from adding to the width */
+      box-sizing: border-box;
+  }
+  #gallery-50 .cs-button-solid:before {
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 0%;
+      background: #000;
+      opacity: 1;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      border-radius: 0.25rem;
+      transition: width 0.3s;
+  }
+  #gallery-50 .cs-button-solid:hover:before {
+      width: 100%;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #gallery-50 .cs-image-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+  #gallery-50 .cs-item-3 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  #gallery-50 .cs-item-2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #gallery-50 .cs-title,
+  body.dark-mode #gallery-50 .cs-text {
+      color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #gallery-50 .cs-text {
+      opacity: 0.8;
+  }
+}
+
+                              
+
+
+
+/*-- -------------------------- -->
 <---            FAQ             -->
 <--- -------------------------- -*/
 

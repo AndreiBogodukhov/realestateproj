@@ -169,6 +169,66 @@
                 <!-- <a href="" class="cs-button-solid">View Full Gallery</a> -->
             </div>
         </section>
+        <section id="gallery-50">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <span id="gallery_category" class="cs-topper">Категории</span>
+                    <h2 id="gallery_h2" class="cs-title">Купить или снять недвижимость</h2>
+                    <p class="cs-text">
+                        На Пхукете можно подобрать квартиры и виллы на любой вкус
+                    </p>
+                </div>
+                <ul class="cs-image-group">
+                    <!-- Image 1 -->
+                    <!-- <li class="cs-item cs-item-1">
+                        <picture class="cs-picture">
+                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction1-m.jpg">
+                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction1.jpg">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction1.jpg" alt="man grinding steel" width="529" height="256">
+                        </picture>
+                        
+                        <div class="cs-hover-box">
+                            <h3 class="cs-h3">Квартиры от застройщиков</h3>
+                            <a class="cs-link" aria-label="read more about this project" href="">
+                                Перейти
+                            </a>
+                        </div>
+                    </li> -->
+                    <!-- Image 2 -->
+                    <li class="cs-item cs-item-2">
+                        <picture class="cs-picture">
+                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2-m.jpg">
+                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2.jpg">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2.jpg" alt="wood worker" width="255" height="255">
+                        </picture>
+                        <!-- Hover Box -->
+                        <div class="cs-hover-box">
+                            <h3 class="cs-h3">Виллы от застройщиков</h3>
+                            <a class="cs-link" aria-label="read more about this project" href="">
+                                Перейти
+                            </a>
+                        </div>
+                    </li>
+                    <li class="cs-item cs-item-3">
+                        <picture class="cs-picture">
+                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2-m.jpg">
+                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2.jpg">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/construction2.jpg" alt="wood worker" width="255" height="255">
+                        </picture>
+                        <!-- Hover Box -->
+                        <div class="cs-hover-box">
+                            <h3 class="cs-h3">Виллы от застройщиков</h3>
+                            <a class="cs-link" aria-label="read more about this project" href="">
+                                Перейти
+                            </a>
+                        </div>
+                    </li>
+                    <!-- Image 3 -->
+                    
+                </ul>
+                <!-- <a href="" class="cs-button-solid">View Full Gallery</a> -->
+            </div>
+        </section>
 
         <section id="faq-1261">
             <div class="cs-container">
