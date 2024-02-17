@@ -44,17 +44,17 @@
         <section id="sbsr-1599">
             <div class="cs-container">
                 <div class="cs-content">
-                    <span class="cs-topper">Статистика</span>
-                    <h2 class="cs-title">Немного о нас</h2>
+                    <span id="au_statistics" class="cs-topper">Статистика</span>
+                    <h2 id="au_au" class="cs-title">Немного о нас</h2>
                     <p class="cs-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, praesentium. Aliquid eum, excepturi impedit minima blanditiis debitis? Voluptate ex tenetur vero qui magnam rem expedita voluptatum eligendi, aspernatur possimus! Porro!
+                    Мы молодая компания в мире недвижимости, но наш индивидуальный подход делает нас уникальными. Наша целеустремленная команда стремится к тому, чтобы каждый клиент получил именно то, что ему нужно, с особенным вниманием к деталям и предпочтениям
                     </p>
                     <picture class="cs-picture cs-picture1">
                         <!--Mobile Image-->
-                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people.jpg">
+                        <source media="(max-width: 600px)" srcset="../img/office.jpg">
                         <!--Tablet and above Image-->
-                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people.jpg">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people.jpg" alt="people" width="608" height="406">
+                        <source media="(min-width: 601px)" srcset="../img/office.jpg">
+                        <img loading="lazy" decoding="async" src="../img/office.jpg" alt="people" width="608" height="406">
                     </picture>
                 </div>
                 <div class="cs-stats-group">
@@ -88,11 +88,11 @@
                 <!-- Left Image Section -->
                 <div class="cs-image-group">
                     <!--Floating Box-->
-                    <div class="cs-box">
+                    <!-- <div class="cs-box">
                         <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/medal.svg" alt="icon" width="521" height="60" aria-hidden="true">
                         <span class="cs-number">12+</span>
                         <span class="cs-desc">ЛЕТ ОПЫТА</span>
-                    </div>
+                    </div> -->
                     <!--Big Background Image-->
                     <picture class="cs-picture">
                         <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting.jpg">
@@ -107,7 +107,7 @@
                     <span class="cs-topper">Наша миссия и видение</span>
                     <h2 class="cs-title">Лучшие в своей нише</h2>
                     <p class="cs-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex tempore voluptate, ducimus, amet, ea enim quae mollitia earum laboriosam eveniet labore ipsa eius nemo soluta! Consequuntur aperiam recusandae quisquam totam.
+                    В мире однотипных предложений мы выделяемся как молодая компания с индивидуальным подходом. Наше стремление к инновациям и гибкость в работе позволяют нам точно понимать потребности каждого клиента и предлагать персонализированные решения
                     </p>
                     <div class="cs-content-flair">
                         <div class="cs-bar">
@@ -141,12 +141,93 @@
                             </div>
                         </div>
                     </div>
-                    <a class="cs-button-solid" aria-label="learn more about our programs" href="">Узнать больше</a>
+                    <!-- <a class="cs-button-solid" aria-label="learn more about our programs" href="">Узнать больше</a> -->
                 </div>
             </div>
         </section>
 
+        <!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
 
+<!-- <section id="RPsbs-1445">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="../img/villa_phuket_1.webp">
+            <source media="(min-width: 601px)" srcset="../img/villa_phuket_1.webp">
+            <img loading="lazy" decoding="async" src="../img/villa_phuket_1.webp" alt="volunteers" width="650" height="600" aria-hidden="true">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Giving Back</span>
+            <h2 class="cs-title">How To Donate Us</h2>
+            <p class="cs-text">
+                Our impact is about more than moving money to where it’s needed most it’s also about helping nonprofits access information and ideas that will help them listen, learn, and grow. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum hic consequuntur porro repudiandae officiis, necessitatibus vero natus nihil suscipit.
+            </p>
+            <ul class="cs-card-group">
+                <li class="cs-li">
+                    <picture class="cs-li-picture">
+                        <img class="cs-li-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/volunteer1.svg" decoding="async" alt="icon" width="32" height="32" loading="lazy">
+                    </picture>
+                    <div class="cs-flex">
+                        <h3 class="cs-h3">Become a Volunteer</h3>
+                        <p class="cs-li-text">
+                            It’s no secret that one person alone cannot overcome the greatest humanitarian crises. It truly takes all of us.
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-li-picture">
+                        <img class="cs-li-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/volunteer2.svg" decoding="async" alt="icon" width="32" height="32" loading="lazy">
+                    </picture>
+                    <div class="cs-flex">
+                        <h3 class="cs-h3">Quick Fundraise</h3>
+                        <p class="cs-li-text">
+                            It’s no secret that one person alone cannot overcome the greatest humanitarian crises. It truly takes all of us.
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-li-picture">
+                        <img class="cs-li-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/volunteer3.svg" decoding="async" alt="icon" width="32" height="32" loading="lazy">
+                    </picture>
+                    <div class="cs-flex">
+                        <h3 class="cs-h3">Start Donating</h3>
+                        <p class="cs-li-text">
+                            It’s no secret that one person alone cannot overcome the greatest humanitarian crises. It truly takes all of us.
+                        </p>
+                    </div>
+                </li>
+            </ul>     
+            <!-- <a href="" class="cs-button-solid">Donate Now</a>         -->
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-1445">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/volunteers.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/volunteers.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/volunteers.jpg" alt="volunteers" width="650" height="600" aria-hidden="true">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Giving Back</span>
+            <h2 class="cs-title">How To Donate Us</h2>
+            <p class="cs-text">
+                Our impact is about more than moving money to where it’s needed most it’s also about helping nonprofits access information and ideas that will help them listen, learn, and grow. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum hic consequuntur porro repudiandae officiis, necessitatibus vero natus nihil suscipit.
+            </p>
+            <p class="cs-text">
+                Our impact is about more than moving money to where it’s needed most it’s also about helping nonprofits access information and ideas that will help them listen, learn, and grow. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum hic consequuntur porro repudiandae officiis, necessitatibus vero natus nihil suscipit.
+            </p>    
+            <!-- <a href="" class="cs-button-solid">Donate Now</a>         -->
+        </div>
+    </div>
+</section> -->
+                                
 
 
 
