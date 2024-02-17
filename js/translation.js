@@ -66,7 +66,7 @@ const translations = {
     'EN': {
         'language_cap': 'EN',
         'agency': 'Real estate agency',
-        'h1_title': 'Buying and renting real estate in Phuket',
+        'h1_title': 'Aquire and Rent real estate in Phuket',
         'h1_about': 'We are an agency that will help you find a condo, apartment or villa',
         'h1_button': 'See more about us',
         'gallery_category_1': 'Categories',
