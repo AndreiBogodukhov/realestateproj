@@ -162,7 +162,7 @@ if (!isset($_SESSION['admin_id'])) {
     <!-- welcome modal end -->
     <!-- js -->
     <!-- End Google Tag Manager (noscript) -->
-    <script src="../js/admin_all.js"></script>
+    <script src="../js/admin_create_table.js"></script>
     <?php include('footer_admin.php'); ?>
 </body>
 

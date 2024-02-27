@@ -1,6 +1,4 @@
-
 <?php
-
 $servername = "localhost"; // Имя сервера базы данных (обычно localhost для локальной установки)
 $username = "root"; // Имя пользователя базы данных
 $password = "mysql"; // Пароль пользователя базы данных
@@ -15,5 +13,4 @@ try {
 } catch(PDOException $e) {
     die("Connection failed: " . $e->getMessage());
 }
-
 ?>
