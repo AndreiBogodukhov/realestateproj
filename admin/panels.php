@@ -183,10 +183,10 @@
     </div>
 
     <div class="left-side-bar">
-        <div class="brand-logo">
-            <a href="index.html">
-                <img src="../vendors/images/deskapp-logo.svg" alt="" class="dark-logo" />
-                <img src="../vendors/images/deskapp-logo-white.svg" alt="" class="light-logo" />
+        <div  style="display: flex; justify-content: center; max-height: 60px;" class="brand-logo">
+            <a href="../index.php">
+                <!-- <img src="../img/logo_100_65_gold.svg"  alt="logo" class="dark-logo" />
+                <img src="../img/logo_100_65_gold.svg"  alt="logo" class="light-logo" /> -->
             </a>
             <div class="close-sidebar" data-toggle="left-sidebar-close">
                 <i class="ion-close-round"></i>
