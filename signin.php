@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if ($admin && password_verify($password, $admin['password'])) {
             $_SESSION['admin_id'] = $admin['id_admin'];
-            header("Location: data_sell_panel.php");
+            header("Location: admin/data_sell_panel.php");
             exit;
         } else {
             $error_message = "Неверные почта или пароль.";
@@ -68,11 +68,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <!-- Preload -->
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/dark.css">
-    <link rel="stylesheet" href="../css/fonts.css">
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/signin.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dark.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/signin.css">
     <title>Продажа, покупка и аренда недвижимости на Пхукете</title>
 </head>
 
@@ -123,9 +123,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </main>
     <!-- Footer -->
     <?php include('footer.php'); ?>
-    <script src="../js/dark.js"></script>
-    <script src="../js/javaScript.js"></script>
-    <script src="../js/bootstrap.js"></script>
+    <script src="js/dark.js"></script>
+    <script src="js/javaScript.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
