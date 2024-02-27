@@ -167,6 +167,42 @@ if (!isset($_SESSION['admin_id'])) {
 
 
                 </div>
+                </div>
+                    <form id="employeeForm" enctype="multipart/form-data"  action="save_employee.php" method="POST">
+                        <div class="form-group">
+                            <label>Имя сотрудника на русском</label>
+                            <input class="form-control" type="text" name="employee_name_ru" />
+                        </div>
+                        <div class="form-group">
+                            <label>Имя сотрудника на английском</label>
+                            <input class="form-control" type="text" name="employee_name_en" />
+                        </div>
+                        <div class="form-group">
+                            <label>Должность сотрудника на русском</label>
+                            <input class="form-control" type="text" name="position_ru" />
+                        </div>
+                        <div class="form-group">
+                            <label>Должность сотрудника на английском</label>
+                            <input class="form-control" type="text" name="position_en" />
+                        </div>
+
+                        
+
+                        <div class="upload-container">
+                            <label for="fileInput" class="upload-btn-new">Select Photo (One)</label>
+                            <input type="file" id="fileInput" name="fileInput" class="file-input-new" accept=".png, .jpg, .jpeg" >
+                            <div class="selected-files-new" id="selectedFiles"></div>
+                        </div>
+
+                        <div class="btn-list">
+                            <button type="submit" class="btn btn-success btn-lg btn-block" id="savEmployeeButton" form="employeeForm">
+                                Сохранить в базу данных
+                            </button>
+                        </div>
+                    </form>
+
+
+                </div>
 
             </div>
 
