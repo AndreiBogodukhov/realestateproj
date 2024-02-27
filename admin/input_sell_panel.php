@@ -221,8 +221,8 @@ if (!isset($_SESSION['admin_id'])) {
     </div>
     </div>
 
-    <?php include('footer_admin.php'); ?>
     <script src="../js/admin_all.js"></script>
+    <?php include('footer_admin.php'); ?>
     
 </body>
 

@@ -161,9 +161,9 @@ if (!isset($_SESSION['admin_id'])) {
     </button> -->
     <!-- welcome modal end -->
     <!-- js -->
-    <?php include('footer_admin.php'); ?>
     <!-- End Google Tag Manager (noscript) -->
     <script src="../js/admin_all.js"></script>
+    <?php include('footer_admin.php'); ?>
 </body>
 
 </html>
