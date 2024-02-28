@@ -9,7 +9,7 @@ try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     // Устанавливаем режим обработки ошибок
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connected successfully"; // Это можно убрать, это просто для проверки успешного подключения
+    // echo "Connected successfully";
 } catch(PDOException $e) {
     die("Connection failed: " . $e->getMessage());
 }

@@ -27,6 +27,51 @@
     <link rel="stylesheet" type="text/css" href="../src/plugins/datatables/css/responsive.bootstrap4.min.css" />
     <link rel="stylesheet" type="text/css" href="../vendors/styles/style.css" />
     <link rel="stylesheet" type="text/css" href="../src/plugins/dropzone/src/dropzone.css" />
+    <style>
+        .table-container {
+            background-color: #ffffff;
+            /* Белый фон */
+            padding: 20px;
+            /* Отступы для контейнера */
+            overflow-x: auto;
+            /* Горизонтальная прокрутка при необходимости */
+        }
+
+        .employee-table {
+            border-collapse: collapse;
+            /* Объединение границ ячеек */
+            width: auto;
+            /* Ширина таблицы автоматически подстраивается */
+        }
+
+        .employee-table th,
+        .employee-table td {
+            border: 1px solid #dddddd;
+            /* Границы ячеек */
+            padding: 8px;
+            /* Отступы внутри ячеек */
+            text-align: left;
+            /* Выравнивание текста в ячейках */
+        }
+
+        .employee-table th {
+            background-color: #f2f2f2;
+            /* Фон заголовков */
+        }
+
+        .delete-button {
+            background-color: #ff0000;
+            /* Цвет кнопки удаления */
+            color: #ffffff;
+            /* Цвет текста кнопки */
+            border: none;
+            /* Убираем границу кнопки */
+            padding: 5px 10px;
+            /* Отступы внутри кнопки */
+            cursor: pointer;
+            /* Курсор при наведении */
+        }
+    </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GBZ3SGGX85"></script>
