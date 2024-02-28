@@ -3,7 +3,9 @@
 include_once("settings.php");
 
 // Получаем ID сотрудника для удаления
-$employeeId = $_POST['employee_id'];
+$employeeId = $_POST['id_employee'];
+
+// $employeeId = $_POST['employee_id'];
 
 try {
     // Проверяем наличие фотографий сотрудника

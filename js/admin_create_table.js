@@ -43,9 +43,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Установим интервал для периодического обновления таблицы
-    setInterval(updateTable, 5000); // Обновляем каждые 5 секунд (вы можете изменить интервал на свой вкус)
+    setInterval(updateTable, 500000); // Обновляем каждые 5 секунд (вы можете изменить интервал на свой вкус)
 });
-
 
 document.addEventListener("DOMContentLoaded", function() {
     const employeeTable = document.getElementById('employeeTable');
@@ -67,35 +66,82 @@ document.addEventListener("DOMContentLoaded", function() {
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({ id_employee: employeeId })
-                    // body: JSON.stringify({ employee_id: employeeId })
+                    body: JSON.stringify({ employee_id: employeeId })
+                    
+                    // body: JSON.stringify({ id_employee: employeeId }
                 })
-                .then(response => response.text())
-                .then(text => {
-                    // Выводим текст ответа в консоль для анализа
-                    console.log(text);
-                    try {
-                        const data = JSON.parse(text);
-                        // Обрабатываем ответ от сервера
-                        if (data.success) {
-                            alert(data.message); // Выводим сообщение об успешном удалении
-                            // Дополнительные действия, если необходимо
-                        } else {
-                            alert(data.message); // Выводим сообщение об ошибке
-                        }
-                    } catch (error) {
-                        console.error('Ошибка при обработке ответа:', error);
-                        alert('Ошибка при обработке ответа. Проверьте консоль для получения дополнительной информации.');
+                .then(response => {
+                    // Проверяем, если Content-Type не application/json, тогда возвращаем текст
+                    const contentType = response.headers.get('content-type');
+                    if (!contentType || !contentType.includes('application/json')) {
+                        return response.text().then(text => {
+                            throw new Error(text);
+                        });
+                    } else {
+                        return response.json();
                     }
                 })
+                .then(data => {
+                    console.log('Data from server:', data);
+                })
                 .catch(error => {
-                    console.error('Ошибка при выполнении запроса:', error);
+                    console.error('Error:', error);
                     alert('Ошибка при выполнении запроса. Проверьте консоль для получения дополнительной информации.');
                 });
             }
         }
     });
 });
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     const employeeTable = document.getElementById('employeeTable');
+
+//     // Обработчик события клика на таблице
+//     employeeTable.addEventListener('click', function(event) {
+//         // Проверяем, является ли целевой элемент кнопкой удаления
+//         if (event.target.classList.contains('delete-button')) {
+//             // Получаем ID сотрудника из атрибута data-employee-id кнопки
+//             const employeeId = event.target.dataset.employeeId;
+
+//             // Всплывающее окно для подтверждения удаления
+//             const confirmDelete = confirm('Вы уверены, что хотите удалить этого сотрудника?');
+
+//             if (confirmDelete) {
+//                 // Выполняем AJAX-запрос для удаления сотрудника
+//                 fetch('../admin/delete_employee.php', {
+//                     method: 'POST',
+//                     headers: {
+//                         'Content-Type': 'application/json'
+//                     },
+//                     body: JSON.stringify({ id_employee: employeeId })
+//                     // body: JSON.stringify({ employee_id: employeeId })
+//                 })
+//                 .then(response => response.text())
+//                 .then(text => {
+//                     // Выводим текст ответа в консоль для анализа
+//                     console.log(text);
+//                     try {
+//                         const data = JSON.parse(text);
+//                         // Обрабатываем ответ от сервера
+//                         if (data.success) {
+//                             alert(data.message); // Выводим сообщение об успешном удалении
+//                             // Дополнительные действия, если необходимо
+//                         } else {
+//                             alert(data.message); // Выводим сообщение об ошибке
+//                         }
+//                     } catch (error) {
+//                         console.error('Ошибка при обработке ответа:', error);
+//                         alert('Ошибка при обработке ответа. Проверьте консоль для получения дополнительной информации.');
+//                     }
+//                 })
+//                 .catch(error => {
+//                     console.error('Ошибка при выполнении запроса:', error);
+//                     alert('Ошибка при выполнении запроса. Проверьте консоль для получения дополнительной информации.');
+//                 });
+//             }
+//         }
+//     });
+// });
 
 
 
