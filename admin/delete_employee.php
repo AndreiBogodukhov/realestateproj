@@ -2,10 +2,10 @@
 // Подключение к базе данных
 include_once("settings.php");
 
-// Проверяем, существует ли индекс 'id_employee' в массиве $_POST
-if(isset($_POST['id_employee'])) {
+// Проверяем, существует ли индекс 'employee_id' в массиве $_POST
+if(isset($_POST['employee_id'])) {
     // Получаем ID сотрудника для удаления
-    $employeeId = $_POST['id_employee'];
+    $employeeId = $_POST['employee_id'];
 
     try {
         // Проверяем наличие фотографий сотрудника
@@ -34,7 +34,8 @@ if(isset($_POST['id_employee'])) {
         echo json_encode(array('success' => false, 'message' => 'Ошибка при удалении сотрудника: ' . $e->getMessage()));
     }
 } else {
-    // Если индекс 'id_employee' не существует в массиве $_POST
+    // Если индекс 'employee_id' не существует в массиве $_POST
     echo json_encode(array('success' => false, 'message' => 'Не удалось получить ID сотрудника для удаления.'));
 }
 ?>
+
