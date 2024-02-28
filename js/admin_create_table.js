@@ -56,6 +56,9 @@ document.addEventListener("DOMContentLoaded", function() {
             // Получаем ID сотрудника из атрибута data-employee-id кнопки
             const employeeId = event.target.dataset.employeeId;
 
+            // Выводим значение employeeId в консоль для проверки
+            console.log('Employee ID:', employeeId);
+
             // Всплывающее окно для подтверждения удаления
             const confirmDelete = confirm('Вы уверены, что хотите удалить этого сотрудника?');
 
@@ -67,8 +70,6 @@ document.addEventListener("DOMContentLoaded", function() {
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({ employee_id: employeeId })
-                    
-                    // body: JSON.stringify({ id_employee: employeeId }
                 })
                 .then(response => {
                     // Проверяем, если Content-Type не application/json, тогда возвращаем текст
@@ -92,6 +93,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
 
 // document.addEventListener("DOMContentLoaded", function() {
 //     const employeeTable = document.getElementById('employeeTable');
