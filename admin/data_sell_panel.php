@@ -36,13 +36,13 @@ if (!isset($_SESSION['admin_id'])) {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <!-- <tr>
                         <td>Иванов Иван</td>
                         <td><button class="delete-button">Удалить</button></td>
                         <td>Иванов Иван</td>
                         <td>Иванов Иван</td>
                         <td>Иванов Иван</td>
-                    </tr>
+                    </tr> -->
                 </tbody>
             </table>
         </div>
