@@ -2990,17 +2990,33 @@ body {
   }
 }
 /* Tablet - 650px */
+/* Tablet - 650px */
+
+/* @media only screen and (min-width: 40.625rem) {
+  #meet-494 .cs-container {
+      max-width: 80rem;
+  }
+  #meet-494 .cs-card-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  #meet-494 .cs-item {
+      flex-basis: calc(33.333% - 1rem);
+      margin-bottom: 1rem;
+  }
+} */
 @media only screen and (min-width: 40.625rem) {
   #meet-494 .cs-container {
       max-width: 80rem;
   }
   #meet-494 .cs-card-group {
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       flex-direction: row;
   }
   #meet-494 .cs-item {
       aspect-ratio: initial;
-      /* 272px - 469px */
+      
       height: clamp(17rem, 37vw, 29.3125rem);
   }
 }

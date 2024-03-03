@@ -56,32 +56,34 @@
                     include_once("settings.php");
 
                     // Выполнение запроса к базе данных для получения данных о сотрудниках
-                    $sql = "SELECT * FROM employees";
+                    $sql = "SELECT employees.employee_name_ru, employees.position_ru, photo_employees.photo_path FROM employees INNER JOIN photo_employees ON employees.id_employee = photo_employees.id_employee";
                     $stmt = $conn->prepare($sql);
                     $stmt->execute();
 
                     // Проверка наличия результата
                     if ($stmt->rowCount() > 0) {
                         // Если есть данные, выводим каждого сотрудника
+                        echo '<ul class="cs-card-group">';
                         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-                    ?>
-                            <li class="cs-item">
-                                <a href="#" class="cs-link">
-                                    <span class="cs-name"><?php echo $row['employee_name_ru']; ?></span>
-                                    <span class="cs-details"><?php echo $row['position_ru']; ?></span>
-                                    <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/arrow-right-gold.svg" loading="lazy" decoding="async" width="14" height="14" alt="arrow icon">
-                                </a>
-                                <picture class="cs-background">
-                                    <source media="(max-width: 600px)" srcset="<?php echo $row['photo_url']; ?>">
-                                    <source media="(min-width: 601px)" srcset="<?php echo $row['photo_url']; ?>">
-                                    <img aria-hidden="true" loading="lazy" decoding="async" src="<?php echo $row['photo_url']; ?>" alt="person" width="412" height="462">
-                                </picture>
-                            </li>
-                    <?php
+                            echo '<li class="cs-item">';
+                            echo '<a href="#" class="cs-link">';
+                            echo '<span class="cs-name">' . $row['employee_name_ru'] . '</span>';
+                            echo '<span class="cs-details">' . $row['position_ru'] . '</span>';
+                            
+                            echo '</a>';
+                            echo '<picture class="cs-background">';
+                            // Изменение пути к фотографии
+                            $photo_path = str_replace("../", "", $row['photo_path']);
+                            echo '<source media="(max-width: 600px)" srcset="' . $photo_path . '">';
+                            echo '<source media="(min-width: 601px)" srcset="' . $photo_path . '">';
+                            echo '<img aria-hidden="true" loading="lazy" decoding="async" src="' . $photo_path . '" alt="person" width="412" height="462">';
+                            echo '</picture>';
+                            echo '</li>';
                         }
+                        echo '</ul>';
                     } else {
                         // Если данных нет, выводим сообщение
-                        echo "<li class='cs-item'><span class='cs-name'>Нет данных</span></li>";
+                        echo "<p>Нет данных о сотрудниках</p>";
                     }
                     ?>
                 </ul>
