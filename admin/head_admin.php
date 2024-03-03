@@ -28,48 +28,65 @@
     <link rel="stylesheet" type="text/css" href="../vendors/styles/style.css" />
     <link rel="stylesheet" type="text/css" href="../src/plugins/dropzone/src/dropzone.css" />
     <style>
-        .table-container {
-            background-color: #ffffff;
-            /* Белый фон */
-            padding: 20px;
-            /* Отступы для контейнера */
+        /* Стили для таблицы */
+        .scrollable-table-container {
             overflow-x: auto;
-            /* Горизонтальная прокрутка при необходимости */
         }
 
-        .employee-table {
+        .scrollable-table {
+            width: 100%;
             border-collapse: collapse;
-            /* Объединение границ ячеек */
-            width: auto;
-            /* Ширина таблицы автоматически подстраивается */
+            white-space: nowrap;
+            /* Предотвращаем перенос текста в ячейках */
         }
 
-        .employee-table th,
-        .employee-table td {
-            border: 1px solid #dddddd;
-            /* Границы ячеек */
+        .scrollable-table th,
+        .scrollable-table td {
+            border: 1px solid #ddd;
             padding: 8px;
-            /* Отступы внутри ячеек */
             text-align: left;
-            /* Выравнивание текста в ячейках */
+            min-width: 150px;
+            /* Минимальная ширина столбца */
+            max-width: 200px;
+            /* Максимальная ширина столбца */
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /* Добавляем троеточие для длинных строк */
         }
 
-        .employee-table th {
+        .scrollable-table th {
             background-color: #f2f2f2;
-            /* Фон заголовков */
         }
 
+        .scrollable-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .scrollable-table tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Стили для кнопки "Удалить" */
         .delete-button {
-            background-color: #ff0000;
-            /* Цвет кнопки удаления */
-            color: #ffffff;
-            /* Цвет текста кнопки */
+            background-color: #f44336;
+            color: white;
             border: none;
-            /* Убираем границу кнопки */
-            padding: 5px 10px;
-            /* Отступы внутри кнопки */
+            padding: 8px 12px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
             cursor: pointer;
-            /* Курсор при наведении */
+            border-radius: 4px;
+        }
+
+        .delete-button-cell {
+            width: 1%;
+            white-space: nowrap;
+        }
+
+        .delete-button:hover {
+            background-color: #d32f2f;
         }
     </style>
 

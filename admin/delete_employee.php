@@ -2,10 +2,10 @@
 // Подключение к базе данных
 include_once("settings.php");
 
-// Проверяем, существует ли индекс 'employee_id' в массиве $_POST
-if(isset($_POST['employee_id'])) {
+// Проверяем, существует ли индекс 'id_employee' в массиве $_GET
+if(isset($_GET['id_employee'])) {
     // Получаем ID сотрудника для удаления
-    $employeeId = $_POST['employee_id'];
+    $employeeId = $_GET['id_employee'];
 
     try {
         // Проверяем наличие фотографий сотрудника
@@ -29,12 +29,14 @@ if(isset($_POST['employee_id'])) {
         $stmtDeleteEmployee->bindParam(':employee_id', $employeeId);
         $stmtDeleteEmployee->execute();
 
-        echo json_encode(array('success' => true, 'message' => 'Сотрудник успешно удален.'));
+        // Перенаправляем пользователя обратно на страницу со списком сотрудников
+        header('Location: ../admin/data_sell_panel.php');
+        exit();
     } catch(PDOException $e) {
         echo json_encode(array('success' => false, 'message' => 'Ошибка при удалении сотрудника: ' . $e->getMessage()));
     }
 } else {
-    // Если индекс 'employee_id' не существует в массиве $_POST
+    // Если индекс 'id_employee' не существует в массиве $_GET
     echo json_encode(array('success' => false, 'message' => 'Не удалось получить ID сотрудника для удаления.'));
 }
 ?>

@@ -2,6 +2,7 @@
 <html lang="ru">
 
 <!-- head of the site -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,72 +35,63 @@
 
 <body>
     <a class="skip" aria-label="skip to main content" href="#main"></a>
-    
+
     <!-- Header -->
     <?php include('header.php'); ?>
 
     <main id="main">
         <!-- Main sections -->
-    <section id="meet-494">
-    <div class="cs-container">
-        <div class="cs-content">
-            <span id="our_team_empl" class="cs-topper">Сотрудники</span>
-            <h2 id="our_team_h2" class="cs-title">Наша команда профессионалов</h2>
-            <p id="our_team_text" class="cs-text">
-            Наша команда состоит из высококвалифицированных специалистов с богатым опытом в сфере недвижимости. Мы предоставляем клиентам только лучшие решения и гарантируем профессиональный подход к каждому случаю. Вместе мы работаем на достижение ваших целей в области недвижимости
-            </p>
-        </div>
-        <ul class="cs-card-group">
-            <li class="cs-item">
-                <a href="" class="cs-link">
-                    <span class="cs-name">Дарья Соколова</span>
-                    <span class="cs-details">
-                        Details
-                        <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/arrow-right-gold.svg" loading="lazy" decoding="async" width="14" height="14" alt="arrow icon">
-                    </span>
-                </a>
-                <picture class="cs-background">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet1.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet1.jpg">
-                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet1.jpg" alt="person" width="412" height="462">
-                    </picture>                     
-            </li>
-            <li class="cs-item">
-                <a href="" class="cs-link">
-                    <span class="cs-name">Петр Петров</span>
-                    <span class="cs-details">
-                        
-                        <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/arrow-right-gold.svg" loading="lazy" decoding="async" width="14" height="14" alt="arrow icon">
-                    </span>
-                </a>
-                <picture class="cs-background">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet2.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet2.jpg">
-                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet2.jpg" alt="person" width="412" height="462">
-                    </picture>                     
-            </li>
-            <li class="cs-item">
-                <a href="" class="cs-link">
-                    <span class="cs-name">Иван Иванов</span>
-                    <span class="cs-details">
-                        
-                        <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/arrow-right-gold.svg" loading="lazy" decoding="async" width="14" height="14" alt="arrow icon">
-                    </span>
-                </a>
-                <picture class="cs-background">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet3.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet3.jpg">
-                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/meet3.jpg" alt="person" width="412" height="462">
-                    </picture>                     
-            </li>
-        </ul>
-        <!-- <a href="" class="cs-button-solid"></a> -->
-    </div>
-    </section>
+        <section id="meet-494">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <span id="our_team_empl" class="cs-topper">Сотрудники</span>
+                    <h2 id="our_team_h2" class="cs-title">Наша команда профессионалов</h2>
+                    <p id="our_team_text" class="cs-text">
+                        Наша команда состоит из высококвалифицированных специалистов с богатым опытом в сфере недвижимости. Мы предоставляем клиентам только лучшие решения и гарантируем профессиональный подход к каждому случаю. Вместе мы работаем на достижение ваших целей в области недвижимости
+                    </p>
+                </div>
+                <ul class="cs-card-group">
+                    <?php
+                    // Подключение к базе данных
+                    include_once("settings.php");
+
+                    // Выполнение запроса к базе данных для получения данных о сотрудниках
+                    $sql = "SELECT * FROM employees";
+                    $stmt = $conn->prepare($sql);
+                    $stmt->execute();
+
+                    // Проверка наличия результата
+                    if ($stmt->rowCount() > 0) {
+                        // Если есть данные, выводим каждого сотрудника
+                        while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                    ?>
+                            <li class="cs-item">
+                                <a href="#" class="cs-link">
+                                    <span class="cs-name"><?php echo $row['employee_name_ru']; ?></span>
+                                    <span class="cs-details"><?php echo $row['position_ru']; ?></span>
+                                    <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Meet-Team/arrow-right-gold.svg" loading="lazy" decoding="async" width="14" height="14" alt="arrow icon">
+                                </a>
+                                <picture class="cs-background">
+                                    <source media="(max-width: 600px)" srcset="<?php echo $row['photo_url']; ?>">
+                                    <source media="(min-width: 601px)" srcset="<?php echo $row['photo_url']; ?>">
+                                    <img aria-hidden="true" loading="lazy" decoding="async" src="<?php echo $row['photo_url']; ?>" alt="person" width="412" height="462">
+                                </picture>
+                            </li>
+                    <?php
+                        }
+                    } else {
+                        // Если данных нет, выводим сообщение
+                        echo "<li class='cs-item'><span class='cs-name'>Нет данных</span></li>";
+                    }
+                    ?>
+                </ul>
+                <!-- <a href="" class="cs-button-solid"></a> -->
+            </div>
+        </section>
 
 
 
-        
+
 
 
     </main>
@@ -109,4 +101,5 @@
     <script src="js/javaScript.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
+
 </html>
