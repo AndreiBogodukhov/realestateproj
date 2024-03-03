@@ -38,6 +38,7 @@
 
     <!-- Header -->
     <?php include('header.php'); ?>
+    <script src="js/translation.js"></script>
 
     <main id="main">
         <!-- Main sections -->
@@ -50,6 +51,7 @@
                         Наша команда состоит из высококвалифицированных специалистов с богатым опытом в сфере недвижимости. Мы предоставляем клиентам только лучшие решения и гарантируем профессиональный подход к каждому случаю. Вместе мы работаем на достижение ваших целей в области недвижимости
                     </p>
                 </div>
+
                 <ul class="cs-card-group">
                     <?php
                     // Подключение к базе данных
@@ -67,9 +69,9 @@
                         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
                             echo '<li class="cs-item">';
                             echo '<a href="#" class="cs-link">';
-                            echo '<span class="cs-name">' . $row['employee_name_ru'] . '</span>';
-                            echo '<span class="cs-details">' . $row['position_ru'] . '</span>';
-                            
+                            // Добавляем атрибуты data-translation-key
+                            echo '<span class="cs-name translatable" data-translation-key="employee_name">' . $row['employee_name_ru'] . '</span>';
+                            echo '<span class="cs-details translatable" data-translation-key="position">' . $row['position_ru'] . '</span>';
                             echo '</a>';
                             echo '<picture class="cs-background">';
                             // Изменение пути к фотографии
