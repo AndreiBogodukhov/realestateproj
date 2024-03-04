@@ -51,6 +51,24 @@
                         Наша команда состоит из высококвалифицированных специалистов с богатым опытом в сфере недвижимости. Мы предоставляем клиентам только лучшие решения и гарантируем профессиональный подход к каждому случаю. Вместе мы работаем на достижение ваших целей в области недвижимости
                     </p>
                 </div>
+                <script>
+                    $(document).ready(function() {
+                        // Выполнение AJAX запроса к файлу get_employees.php
+                        $.ajax({
+                            url: 'get_employees.php', // Путь к файлу
+                            type: 'GET', // Метод запроса
+                            dataType: 'html', // Тип возвращаемых данных (html, json и т.д.)
+                            success: function(response) {
+                                // Обработка успешного ответа
+                                $('#employees-list').html(response); // Вставка полученных данных в элемент с id="employees-list"
+                            },
+                            error: function(xhr, status, error) {
+                                // Обработка ошибки
+                                console.error('AJAX Error:', status, error); // Вывод ошибки в консоль
+                            }
+                        });
+                    });
+                </script>
 
                 <ul class="cs-card-group">
                     <?php
